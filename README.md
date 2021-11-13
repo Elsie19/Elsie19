@@ -3,9 +3,9 @@
 ## **Henry ([@Henryws](https://github.com/Henryws))**
 
 
-[![](https://img.shields.io/badge/OS-Debian-informational?style=flat-square&logo=linux&logoColor=white&color=d70a53)](https://www.debian.org/)
-[![](https://img.shields.io/badge/Coding%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=AC4142)](https://gnu.org/software/bash)
-[![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=00FF00)](https://neovim.io/)
+[![](https://img.shields.io/badge/OS-Debian-informational?style=flat-square&logo=linux&logoColor=white&color=ffffff)](https://www.debian.org/)
+[![](https://img.shields.io/badge/Coding%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=ffffff)](https://gnu.org/software/bash)
+[![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=ffffff)](https://neovim.io/)
 
 ##### Hello, I am me, and you are you. I don't have much else to say, so...
   
