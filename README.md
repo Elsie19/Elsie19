@@ -14,10 +14,7 @@
 | Name | Category | Description |
 |------|----------|-------------|
 | [Pacstall](https://github.com/pacstall/pacstall) | [![Pacstall](https://img.shields.io/badge/%F0%9F%93%A6-Package%20Manager-orange?style=flat-square)](https://github.com/topics/package-manager)| An AUR like system for Ubuntu |
-| [Neon Blood](https://github.com/Henryws/Neon-Blood) | [![Neon-Blood](https://img.shields.io/badge/%F0%9F%A9%B8-Neon--Blood-322b3c?style=flat-square)](https://github.com/topics/themes) | A colorscheme for everything |
-| [mine](https://github.com/Henryws/mine) | [![mine](https://img.shields.io/badge/%F0%9F%8E%AE-Minecraft-brightgreen?style=flat-square)](https://github.com/topics/minecraft) | A simple yet powerful minecraft wrapper |
 | [Venom](https://github.com/Henryws/Venom) | [![Venom](https://img.shields.io/badge/📝-NeoVim-322b3c?style=flat-square)](https://github.com/topics/Venom) | Venomous Vim config with useful options and a clean interface |
-| [Stoke](https://github.com/Henryws/Stoke) | [![Venom](https://img.shields.io/badge/🔥-MPR-fa8072?style=flat-square)](https://github.com/topics/MPR-helper) | A blazing fast MPR helper |
 | [Dino](https://github.com/Henryws/Dino) | [![Dino](https://img.shields.io/badge/🦖-Dino-006400?style=flat-square)](https://github.com/topics/Dino) | An extensible database written in bash |
 
 <!---| [Themer](https://github.com/Henryws/themer) | [![Themes](https://img.shields.io/badge/%F0%9F%A7%AC-Theming%20Tool-brightgreen?style=flat-square)](https://github.com/topics/themes) | A simple tool to download and install themes/icons/cursors |--->
