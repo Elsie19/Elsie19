@@ -9,19 +9,19 @@
         [
             null,
             null,
-            null,
-            null
-        ],
-        [
-            null,
-            null,
-            null,
-            null
-        ],
-        [
-            null,
-            null,
             2,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            2,
+            null,
+            null,
             null
         ]
     ],
@@ -29,6 +29,7 @@
     "bestScore": 0,
     "moves": [
         "@Henryws",
-        "@hwittenborn"
+        "@hwittenborn",
+        "@jvadair"
     ]
 }
