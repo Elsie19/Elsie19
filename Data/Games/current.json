@@ -1,28 +1,28 @@
 {
     "grid": [
         [
-            4,
+            null,
+            null,
+            null,
+            4
+        ],
+        [
+            null,
+            null,
+            null,
+            2
+        ],
+        [
+            null,
             null,
             null,
             null
         ],
         [
-            null,
             null,
             2,
-            null
-        ],
-        [
             null,
-            null,
-            null,
-            null
-        ],
-        [
-            2,
-            null,
-            null,
-            null
+            2
         ]
     ],
     "score": 4,
@@ -30,6 +30,7 @@
     "moves": [
         "@Henryws",
         "@hwittenborn",
-        "@jvadair"
+        "@jvadair",
+        "@paulcosma97"
     ]
 }
