@@ -89,7 +89,7 @@ def newGame(issue, issueAuthor):
     readme = readme.read()
     readme = readme.split("<!-- 2048GameActions -->", 2)
 
-    readme[1] = "<a href=\"https://github.com/Darkempire78/readme-2048/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/Darkempire78/readme-2048/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/Darkempire78/readme-2048/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/Darkempire78/readme-2048/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideRight.png\"/> </a>"
+    readme[1] = "<a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideRight.png\"/> </a>"
 
     with open("README.md", "w", encoding="utf-8") as _readme:
         _readme.write("<!-- 2048GameActions -->".join(readme))
@@ -366,7 +366,7 @@ def endAction(grid, score, issue, issueAuthor, issueText, isNewGame):
         updateRanking(issueAuthor)
 
         # Reply and close the issue
-        issue.create_comment(f"{issueAuthor} {issueText}\nThe gameboard may take a few moments to refresh.\n\nAsk a friend to do the next action: [Share on Twitter...](https://twitter.com/intent/tweet?text=I%27m%20playing%202048%20on%20a%20GitHub%20Profile%20Readme!%20I%20just%20played.%20You%20have%20the%20action%20at%20https%3A%2F%2Fgithub.com%2FDarkempire78%2FDarkempire78)")
+        issue.create_comment(f"{issueAuthor} {issueText}\nThe gameboard may take a few moments to refresh.\n\nAsk a friend to do the next action: [Share on Twitter...](https://twitter.com/intent/tweet?text=I%27m%20playing%202048%20on%20a%20GitHub%20Profile%20Readme!%20I%20just%20played.%20You%20have%20the%20action%20at%20https%3A%2F%2Fgithub.com%2FHenryws%2FHenryws)")
         issue.edit(state='closed', labels=["done"])
 
     # Game ended
@@ -384,7 +384,7 @@ def endAction(grid, score, issue, issueAuthor, issueText, isNewGame):
         readme = readme.read()
         readme = readme.split("<!-- 2048GameActions -->", 2)
 
-        readme[1] = "<a  href=\"https://github.com/Darkempire78/readme-2048/issues/new?title=2048|newGame&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"><img src=\"Assets/newGame.png\"/></a>"
+        readme[1] = "<a  href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|newGame&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"><img src=\"Assets/newGame.png\"/></a>"
 
         with open("README.md", "w") as _readme:
             _readme.write("<!-- 2048GameActions -->".join(readme))
