@@ -2,9 +2,15 @@
     "grid": [
         [
             null,
+            2,
+            null,
+            8
+        ],
+        [
             null,
             null,
-            4
+            null,
+            null
         ],
         [
             null,
@@ -17,20 +23,15 @@
             null,
             null,
             null
-        ],
-        [
-            null,
-            2,
-            null,
-            2
         ]
     ],
-    "score": 4,
+    "score": 16,
     "bestScore": 0,
     "moves": [
         "@Henryws",
         "@hwittenborn",
         "@jvadair",
-        "@paulcosma97"
+        "@paulcosma97",
+        "@hwittenborn"
     ]
 }

@@ -60,8 +60,8 @@ Tl;Dr: I want minecraft, I got minecraft on slow computer, I got computer, I bui
 <!-- 2048Ranking -->
 | Players | Actions |
 |---------------|:---------:|
+| [@hwittenborn](https://github.com/hwittenborn) | 2 |
 | [@Henryws](https://github.com/Henryws) | 1 |
-| [@hwittenborn](https://github.com/hwittenborn) | 1 |
 | [@jvadair](https://github.com/jvadair) | 1 |
 | [@paulcosma97](https://github.com/paulcosma97) | 1 |
 <!-- 2048Ranking -->
