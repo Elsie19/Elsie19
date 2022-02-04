@@ -34,10 +34,11 @@ I'm kind of a Bash junkie
 | [ohmyZSH](https://ohmyz.sh/) | Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration |
 | [sddm+sugar candy](https://www.pling.com/p/1312658/) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
 
+━━━━━━ ❖ ━━━━━━
 </div>
 
- ━━━━━━ ❖ ━━━━━━ 
-Hello, have you made it this far? If so, here's my story (not that anyone really cares)
+Hello, have you made it this far? If so, here's my story
+
 I started using computers in 2014, when my dad got me a [Raspberry Pi 1B](https://a.pololu-files.com/picture/0J4940.600x480.jpg). Long story short on how I got it was I wanted to play Minecraft and he panicked, because he knew I would stop at nothing until I had a computer to play it on. So he bought the 1B and the [og pi handbook](http://www.cs.unca.edu/~bruce/Fall14/360/RPiUsersGuide.pdf), and yes, it was a physical book. Me and my dad spent ages trying to figure out what the heck a FAT32 file system was (FAT32 was a pretty funny thing to me then), but I finally saw the lines of text falling on the TV, with 2 raspberries at the top. That was fun. I spent about 4 years with it (yes, they last _extremely_ long), and then I wanted more (I was making a Pokemon knock off in [Scratch](https://scratch.mit.edu). I asked my grandpa for my birthday, and he got me a [Raspberry Pi 3B](https://cdn7.bigcommerce.com/s-2fbyfnm8ev/images/stencil/1280x1280/products/112/1038/Raspberry_Pi_3_buyapi-1__20242.1539127615.jpg?c=2&imbypass=on), and the fact that it had more than two usb ports was so cool! From there, I forget a lot of what happened, and one day when I was 13, I had to get my flu shot, and my dad told me if I behave, I get a real computer! I had that one for a year and then I built my own computer which I'm writing this now on.
 Tl;Dr: I want minecraft, I got minecraft on slow computer, I got computer, I built computer.
 
