@@ -7,10 +7,10 @@
             null
         ],
         [
+            2,
             null,
             null,
-            4,
-            null
+            4
         ],
         [
             null,
@@ -20,12 +20,12 @@
         ],
         [
             null,
-            2,
             null,
-            2
+            null,
+            4
         ]
     ],
-    "score": 16,
+    "score": 20,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -33,6 +33,7 @@
         "@jvadair",
         "@paulcosma97",
         "@hwittenborn",
-        "@Henryws"
+        "@Henryws",
+        "@pure-cheekbones"
     ]
 }
