@@ -7,22 +7,22 @@
             null
         ],
         [
-            null,
-            null,
-            2,
-            4
-        ],
-        [
-            null,
-            null,
-            null,
-            8
-        ],
-        [
-            null,
             2,
             4,
-            2
+            null,
+            null
+        ],
+        [
+            8,
+            2,
+            null,
+            null
+        ],
+        [
+            2,
+            4,
+            2,
+            null
         ]
     ],
     "score": 20,
@@ -36,6 +36,7 @@
         "@Henryws",
         "@pure-cheekbones",
         "@Henryws",
-        "@angelofallars"
+        "@angelofallars",
+        "@jon4hz"
     ]
 }
