@@ -55,7 +55,7 @@
 | Players | Actions |
 |---------------|:---------:|
 | [@Henryws](https://github.com/Henryws) | 4 |
-| [@hwittenborn](https://github.com/hwittenborn) | 2 |
+| [@hwittenborn](https://github.com/hwittenborn) | 3 |
 | [@jvadair](https://github.com/jvadair) | 1 |
 | [@paulcosma97](https://github.com/paulcosma97) | 1 |
 | [@pure-cheekbones](https://github.com/pure-cheekbones) | 1 |

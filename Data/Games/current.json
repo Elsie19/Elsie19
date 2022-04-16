@@ -2,19 +2,19 @@
     "grid": [
         [
             4,
-            2,
+            8,
             null,
             null
         ],
         [
             16,
             null,
-            null,
+            2,
             null
         ],
         [
             4,
-            2,
+            null,
             null,
             null
         ],
@@ -25,7 +25,7 @@
             null
         ]
     ],
-    "score": 52,
+    "score": 68,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -40,6 +40,7 @@
         "@jon4hz",
         "@IsakTheHacker",
         "@Henryws",
-        "@MythicalNewt"
+        "@MythicalNewt",
+        "@hwittenborn"
     ]
 }
