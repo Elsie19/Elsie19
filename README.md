@@ -56,12 +56,12 @@
 |---------------|:---------:|
 | [@Henryws](https://github.com/Henryws) | 4 |
 | [@hwittenborn](https://github.com/hwittenborn) | 3 |
+| [@IsakTheHacker](https://github.com/IsakTheHacker) | 2 |
 | [@jvadair](https://github.com/jvadair) | 1 |
 | [@paulcosma97](https://github.com/paulcosma97) | 1 |
 | [@pure-cheekbones](https://github.com/pure-cheekbones) | 1 |
 | [@angelofallars](https://github.com/angelofallars) | 1 |
 | [@jon4hz](https://github.com/jon4hz) | 1 |
-| [@IsakTheHacker](https://github.com/IsakTheHacker) | 1 |
 | [@MythicalNewt](https://github.com/MythicalNewt) | 1 |
 | [@Bglaws](https://github.com/Bglaws) | 1 |
 <!-- 2048Ranking -->

@@ -1,31 +1,31 @@
 {
     "grid": [
         [
-            4,
-            8,
             null,
-            null
+            null,
+            4,
+            8
         ],
         [
+            null,
+            null,
             16,
-            2,
-            null,
-            null
+            2
         ],
         [
+            null,
+            null,
             2,
-            4,
-            4,
-            null
+            8
         ],
         [
+            null,
             2,
             null,
-            null,
-            null
+            2
         ]
     ],
-    "score": 68,
+    "score": 76,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -43,6 +43,7 @@
         "@MythicalNewt",
         "@hwittenborn",
         "@Bglaws",
-        "@Weilbyte"
+        "@Weilbyte",
+        "@IsakTheHacker"
     ]
 }
