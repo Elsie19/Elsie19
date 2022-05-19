@@ -7,7 +7,7 @@
             8
         ],
         [
-            null,
+            2,
             null,
             16,
             2
@@ -20,12 +20,12 @@
         ],
         [
             null,
-            2,
             null,
-            2
+            null,
+            4
         ]
     ],
-    "score": 76,
+    "score": 80,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -44,6 +44,7 @@
         "@hwittenborn",
         "@Bglaws",
         "@Weilbyte",
-        "@IsakTheHacker"
+        "@IsakTheHacker",
+        "@julianchong00"
     ]
 }
