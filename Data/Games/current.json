@@ -2,30 +2,30 @@
     "grid": [
         [
             2,
-            4,
-            4,
-            8
-        ],
-        [
-            null,
-            null,
             16,
+            null,
+            null
+        ],
+        [
+            16,
+            2,
+            null,
+            null
+        ],
+        [
+            4,
+            8,
+            null,
+            null
+        ],
+        [
+            4,
+            null,
+            null,
             2
-        ],
-        [
-            null,
-            2,
-            2,
-            8
-        ],
-        [
-            null,
-            null,
-            null,
-            4
         ]
     ],
-    "score": 84,
+    "score": 112,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -48,6 +48,7 @@
         "@julianchong00",
         "@hwittenborn",
         "@mazunki",
-        "@TheRealOne78"
+        "@TheRealOne78",
+        "@IsakTheHacker"
     ]
 }
