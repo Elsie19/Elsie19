@@ -2,7 +2,7 @@
     "grid": [
         [
             2,
-            2,
+            4,
             4,
             8
         ],
@@ -25,7 +25,7 @@
             4
         ]
     ],
-    "score": 80,
+    "score": 84,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -47,6 +47,7 @@
         "@IsakTheHacker",
         "@julianchong00",
         "@hwittenborn",
-        "@mazunki"
+        "@mazunki",
+        "@TheRealOne78"
     ]
 }
