@@ -1,26 +1,26 @@
 {
     "grid": [
         [
-            null,
-            null,
-            null,
-            null
-        ],
-        [
             2,
             16,
-            null,
-            null
+            2,
+            2
         ],
         [
             16,
             2,
-            2,
+            null,
             null
         ],
         [
             8,
             8,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
             null,
             2
         ]
@@ -50,6 +50,7 @@
         "@mazunki",
         "@TheRealOne78",
         "@IsakTheHacker",
-        "@notmax6677"
+        "@notmax6677",
+        "@Hepno"
     ]
 }
