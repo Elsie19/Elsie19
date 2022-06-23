@@ -7,25 +7,25 @@
             null
         ],
         [
-            16,
+            32,
             2,
             2,
             null
         ],
         [
-            16,
+            2,
             null,
             null,
             null
         ],
         [
-            2,
             null,
             null,
-            null
+            null,
+            2
         ]
     ],
-    "score": 140,
+    "score": 172,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -52,6 +52,7 @@
         "@IsakTheHacker",
         "@notmax6677",
         "@Hepno",
-        "@Henryws"
+        "@Henryws",
+        "@AyahBot-Dev"
     ]
 }
