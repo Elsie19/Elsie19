@@ -3,29 +3,29 @@
         [
             2,
             16,
-            2,
-            2
+            4,
+            null
         ],
         [
             16,
             2,
+            2,
+            null
+        ],
+        [
+            16,
+            null,
             null,
             null
         ],
         [
-            8,
-            8,
+            2,
+            null,
             null,
             null
-        ],
-        [
-            null,
-            null,
-            null,
-            2
         ]
     ],
-    "score": 120,
+    "score": 140,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -51,6 +51,7 @@
         "@TheRealOne78",
         "@IsakTheHacker",
         "@notmax6677",
-        "@Hepno"
+        "@Hepno",
+        "@Henryws"
     ]
 }
