@@ -3,7 +3,7 @@
 ## **Henry ([@Henryws](https://github.com/Henryws))**
 
 [![](https://img.shields.io/badge/OS-Bedrock-informational?style=flat-square&logo=linux&logoColor=white&color=ffffff)](https://bedrocklinux.org/)
-[![](https://img.shields.io/badge/Coding%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=ffffff)](https://go.dev)
+[![](https://img.shields.io/badge/Coding%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=ffffff)](https://www.gnu.org/software/bash/)
 [![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=ffffff)](https://neovim.io/)
   
  ━━━━━━ ❖ ━━━━━━ 
