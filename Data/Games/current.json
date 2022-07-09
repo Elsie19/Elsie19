@@ -7,22 +7,22 @@
             null
         ],
         [
-            4,
-            null,
-            null,
-            null
-        ],
-        [
-            32,
-            16,
-            4,
-            null
-        ],
-        [
-            8,
             null,
             2,
-            null
+            null,
+            4
+        ],
+        [
+            null,
+            32,
+            16,
+            4
+        ],
+        [
+            null,
+            null,
+            8,
+            2
         ]
     ],
     "score": 192,
@@ -55,6 +55,7 @@
         "@Henryws",
         "@AyahBot-Dev",
         "@Chadano",
-        "@MvBonin"
+        "@MvBonin",
+        "@panda3045"
     ]
 }
