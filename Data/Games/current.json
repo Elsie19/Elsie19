@@ -2,12 +2,12 @@
     "grid": [
         [
             null,
+            2,
             null,
-            null,
-            2
+            null
         ],
         [
-            2,
+            null,
             null,
             null,
             null
@@ -15,17 +15,17 @@
         [
             2,
             16,
-            8,
+            null,
             null
         ],
         [
-            2,
+            4,
             32,
-            8,
-            2
+            16,
+            4
         ]
     ],
-    "score": 200,
+    "score": 224,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -59,6 +59,7 @@
         "@panda3045",
         "@Henryws",
         "@abrahampo1",
-        "@kra53n"
+        "@kra53n",
+        "@Bglaws"
     ]
 }
