@@ -54,7 +54,7 @@
 <!-- 2048Ranking -->
 | Players | Actions |
 |---------------|:---------:|
-| [@Henryws](https://github.com/Henryws) | 6 |
+| [@Henryws](https://github.com/Henryws) | 7 |
 | [@hwittenborn](https://github.com/hwittenborn) | 4 |
 | [@IsakTheHacker](https://github.com/IsakTheHacker) | 3 |
 | [@Bglaws](https://github.com/Bglaws) | 2 |

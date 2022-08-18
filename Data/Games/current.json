@@ -1,31 +1,31 @@
 {
     "grid": [
         [
+            4,
             2,
-            2,
-            null,
+            8,
             null
         ],
         [
             2,
-            null,
-            null,
-            null
-        ],
-        [
-            2,
-            32,
+            64,
             null,
             null
         ],
         [
             4,
-            32,
-            8,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            2,
             null
         ]
     ],
-    "score": 264,
+    "score": 332,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -63,6 +63,7 @@
         "@Bglaws",
         "@dougmasten",
         "@erikLundstedt",
-        "@dbednar230"
+        "@dbednar230",
+        "@Henryws"
     ]
 }
