@@ -1,28 +1,28 @@
 {
     "grid": [
         [
+            2,
             4,
             2,
-            8,
-            null
+            8
         ],
         [
-            2,
-            64,
             null,
-            null
+            null,
+            2,
+            64
         ],
         [
+            null,
+            null,
             4,
-            null,
-            2,
-            null
+            2
         ],
         [
-            2,
             null,
             null,
-            null
+            null,
+            2
         ]
     ],
     "score": 332,
@@ -65,6 +65,7 @@
         "@erikLundstedt",
         "@dbednar230",
         "@Henryws",
-        "@jbrgilbrech"
+        "@jbrgilbrech",
+        "@FallCheetah7373"
     ]
 }
