@@ -1,28 +1,28 @@
 {
     "grid": [
         [
-            null,
             4,
             8,
+            2,
             2
         ],
         [
+            16,
             null,
             null,
-            null,
-            16
+            null
         ],
         [
-            null,
             2,
+            64,
             null,
-            64
+            null
         ],
         [
-            null,
-            null,
             2,
-            4
+            4,
+            null,
+            null
         ]
     ],
     "score": 380,
@@ -72,6 +72,7 @@
         "@cadecuddy",
         "@remichu",
         "@kojq",
-        "@anthonyraf"
+        "@anthonyraf",
+        "@Saecki"
     ]
 }
