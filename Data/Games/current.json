@@ -3,8 +3,8 @@
         [
             4,
             8,
-            2,
-            2
+            4,
+            null
         ],
         [
             16,
@@ -22,10 +22,10 @@
             2,
             4,
             null,
-            null
+            2
         ]
     ],
-    "score": 380,
+    "score": 384,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -73,6 +73,7 @@
         "@remichu",
         "@kojq",
         "@anthonyraf",
-        "@Saecki"
+        "@Saecki",
+        "@tendstofortytwo"
     ]
 }
