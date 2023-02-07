@@ -9,7 +9,7 @@
         [
             4,
             8,
-            null,
+            4,
             null
         ],
         [
@@ -19,13 +19,13 @@
             null
         ],
         [
+            8,
             4,
-            4,
-            4,
-            2
+            2,
+            null
         ]
     ],
-    "score": 388,
+    "score": 396,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -75,6 +75,7 @@
         "@anthonyraf",
         "@Saecki",
         "@tendstofortytwo",
-        "@Apocryphon-X"
+        "@Apocryphon-X",
+        "@oklopfer"
     ]
 }
