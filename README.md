@@ -12,7 +12,7 @@
 |------|----------|-------------|
 | [Pacstall](https://github.com/pacstall/pacstall) | [![Pacstall](https://img.shields.io/badge/%F0%9F%93%A6-Package%20Manager-orange?style=flat-square)](https://github.com/topics/package-manager)| An AUR like system for Ubuntu |
 | [Venom](https://github.com/Henryws/Venom) | [![Venom](https://img.shields.io/badge/📝-NeoVim-322b3c?style=flat-square)](https://github.com/topics/Venom) | Venomous Vim config with useful options and a clean interface |
-| [Dino](https://github.com/Henryws/Dino) | [![Dino](https://img.shields.io/badge/🦖-Dino-006400?style=flat-square)](https://github.com/topics/Dino) | An extensible database written in bash |
+| [Clam](https://github.com/Henryws/clam) | [![Dino](https://img.shields.io/badge/🦪-Clam-006400?style=flat-square)](https://github.com/topics/clam) | Development tools for writing shell scripts |
 | [Yafetch](https://github.com/Henryws/Yafetch) | [![Yafetch](https://img.shields.io/badge/%F0%9F%8E%A8-Yafetch-blue?style=flat-square)](https://github.com/topics/yafetch) | Yet Another Fetch |
 
 <!---| [Themer](https://github.com/Henryws/themer) | [![Themes](https://img.shields.io/badge/%F0%9F%A7%AC-Theming%20Tool-brightgreen?style=flat-square)](https://github.com/topics/themes) | A simple tool to download and install themes/icons/cursors |--->
