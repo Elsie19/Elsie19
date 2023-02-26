@@ -3,25 +3,25 @@
         [
             null,
             null,
-            null,
+            2,
             2
+        ],
+        [
+            null,
+            null,
+            null,
+            4
         ],
         [
             null,
             4,
             8,
-            4
+            64
         ],
         [
             null,
             2,
             16,
-            64
-        ],
-        [
-            null,
-            null,
-            null,
             16
         ]
     ],
@@ -78,6 +78,7 @@
         "@Apocryphon-X",
         "@oklopfer",
         "@ArrowsGD",
-        "@oklopfer"
+        "@oklopfer",
+        "@TheRealOne78"
     ]
 }
