@@ -2,26 +2,26 @@
     "grid": [
         [
             null,
-            null,
+            4,
             2,
             2
         ],
         [
             null,
-            null,
-            null,
+            2,
+            8,
             4
         ],
         [
+            2,
             null,
-            4,
-            8,
+            16,
             64
         ],
         [
             null,
-            2,
-            16,
+            null,
+            null,
             16
         ]
     ],
@@ -79,6 +79,7 @@
         "@oklopfer",
         "@ArrowsGD",
         "@oklopfer",
-        "@TheRealOne78"
+        "@TheRealOne78",
+        "@wizard-28"
     ]
 }
