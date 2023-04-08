@@ -1,6 +1,6 @@
 <div align="center">
 
-## **Henry ([@Henryws](https://github.com/Henryws))**
+## **Henryws ~ Bash God**
 
 [![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat-square&logo=linux&logoColor=white&color=ffffff)](https://ubuntu.com/)
 [![](https://img.shields.io/badge/Programming%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=ffffff)](https://www.gnu.org/software/bash/)
