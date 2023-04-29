@@ -1,10 +1,10 @@
 <div align="center">
 
-## **Henryws ~ Bash God**
+## **Plasma**
 
-[![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat-square&logo=linux&logoColor=white&color=ffffff)](https://ubuntu.com/)
-[![](https://img.shields.io/badge/Programming%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=ffffff)](https://www.gnu.org/software/bash/)
-[![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=ffffff)](https://neovim.io/)
+[![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat-square&logo=linux&logoColor=white&color=D79FC7)](https://ubuntu.com/)
+[![](https://img.shields.io/badge/Programming%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=D79FC7)](https://www.gnu.org/software/bash/)
+[![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=D79FC7)](https://neovim.io/)
   
  ━━━━━━ ❖ ━━━━━━ 
 ### **Projects**
