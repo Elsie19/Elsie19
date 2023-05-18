@@ -2,30 +2,30 @@
     "grid": [
         [
             null,
-            null,
-            null,
+            4,
+            8,
             8
         ],
         [
             null,
-            2,
-            8,
+            null,
+            16,
             4
         ],
         [
+            2,
             null,
             2,
-            16,
             64
         ],
         [
             null,
             null,
-            2,
+            null,
             16
         ]
     ],
-    "score": 436,
+    "score": 440,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -81,6 +81,7 @@
         "@oklopfer",
         "@TheRealOne78",
         "@wizard-28",
-        "@LordUbuntu"
+        "@LordUbuntu",
+        "@Slackadays"
     ]
 }
