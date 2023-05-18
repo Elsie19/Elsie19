@@ -62,8 +62,8 @@
 | [@TheRealOne78](https://github.com/TheRealOne78) | 2 |
 | [@Hepno](https://github.com/Hepno) | 2 |
 | [@oklopfer](https://github.com/oklopfer) | 2 |
+| [@Slackadays](https://github.com/Slackadays) | 2 |
 | [@jvadair](https://github.com/jvadair) | 1 |
-| [@paulcosma97](https://github.com/paulcosma97) | 1 |
 <!-- 2048Ranking -->
 
 Do you want to make your own? Check out the [Darkempire78's readme 2048 template](https://github.com/Darkempire78/Readme-2048)!

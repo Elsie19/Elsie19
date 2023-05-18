@@ -1,28 +1,28 @@
 {
     "grid": [
         [
-            null,
-            null,
             4,
-            16
+            16,
+            null,
+            null
         ],
         [
             2,
-            null,
             16,
-            4
-        ],
-        [
-            null,
-            null,
             4,
-            64
+            2
         ],
         [
+            4,
+            64,
+            null,
+            null
+        ],
+        [
+            16,
             null,
             null,
-            null,
-            16
+            null
         ]
     ],
     "score": 460,
@@ -83,6 +83,7 @@
         "@wizard-28",
         "@LordUbuntu",
         "@Slackadays",
-        "@Psyhackological"
+        "@Psyhackological",
+        "@Slackadays"
     ]
 }
