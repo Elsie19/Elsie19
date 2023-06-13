@@ -1,22 +1,22 @@
 {
     "grid": [
         [
-            null,
-            null,
-            null,
-            4
-        ],
-        [
-            null,
-            2,
-            2,
-            4
-        ],
-        [
-            null,
-            null,
             4,
-            32
+            null,
+            null,
+            null
+        ],
+        [
+            8,
+            4,
+            null,
+            null
+        ],
+        [
+            4,
+            32,
+            null,
+            null
         ],
         [
             16,
@@ -25,7 +25,7 @@
             2
         ]
     ],
-    "score": 492,
+    "score": 504,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -86,6 +86,7 @@
         "@Psyhackological",
         "@Slackadays",
         "@mche3kek",
-        "@Slackadays"
+        "@Slackadays",
+        "@Diegiwg"
     ]
 }
