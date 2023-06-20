@@ -2,27 +2,27 @@
     "grid": [
         [
             4,
-            null,
-            null,
-            null
+            4,
+            4,
+            2
         ],
         [
             8,
-            4,
-            null,
-            null
-        ],
-        [
-            4,
             32,
             null,
             null
         ],
         [
-            16,
-            64,
             4,
-            2
+            64,
+            null,
+            null
+        ],
+        [
+            16,
+            null,
+            2,
+            null
         ]
     ],
     "score": 504,
@@ -87,6 +87,7 @@
         "@Slackadays",
         "@mche3kek",
         "@Slackadays",
-        "@Diegiwg"
+        "@Diegiwg",
+        "@hpiaia"
     ]
 }
