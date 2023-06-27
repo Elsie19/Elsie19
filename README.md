@@ -25,7 +25,7 @@
 | [Alacritty](https://github.com/alacritty/alacritty) | Alacritty is the fastest terminal emulator in existence |
 | [AwesomeWM](https://awesomewm.org/) | awesome is a highly configurable, next generation framework window manager for X |
 | [Neovim](https://neovim.io/) | Hyperextensible Vim-based text editor |
-| [Firefox](https://firefox.com) |  Do what you do online. Firefox Browser isn’t watching |
+| [Brave Nightly](https://brave.com/) | Browse privately. Search privately. And ditch Big Tech |
 | [Dracula PRO](https://draculatheme.com/pro) |  Dracula PRO is a color scheme and UI theme tailored for programming |
 | [DT's awesome config](https://gitlab.com/dwt1/dotfiles) | DistroTube's awesomewm config |
 | [Neomutt](https://neomutt.org/) | NeoMutt is a command line mail reader (or MUA). It’s a fork of Mutt with added features |
