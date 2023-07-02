@@ -43,7 +43,7 @@
 **It's your turn, click on a button below the board!**
 
 <!-- 2048GameBoard -->
-<img src="https://github.com/Elsie19/Readme-2048/blob/main/Data/gameboard.png" width="500"/>
+<img src="https://github.com/Elsie19/Elsie19/blob/main/Data/gameboard.png" width="500"/>
 <!-- 2048GameBoard -->
 
 <!-- 2048GameActions -->
