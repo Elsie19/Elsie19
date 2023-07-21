@@ -89,7 +89,7 @@ def newGame(issue, issueAuthor):
     readme = readme.read()
     readme = readme.split("<!-- 2048GameActions -->", 2)
 
-    readme[1] = "<a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideRight.png\"/> </a>"
+    readme[1] = "<a href=\"https://github.com/Elsie19/Elsie19/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideRight.png\"/> </a>"
 
     with open("README.md", "w", encoding="utf-8") as _readme:
         _readme.write("<!-- 2048GameActions -->".join(readme))
@@ -384,7 +384,7 @@ def endAction(grid, score, issue, issueAuthor, issueText, isNewGame):
         readme = readme.read()
         readme = readme.split("<!-- 2048GameActions -->", 2)
 
-        readme[1] = "<a  href=\"https://github.com/Henryws/Henryws/issues/new?title=2048|newGame&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"><img src=\"Assets/newGame.png\"/></a>"
+        readme[1] = "<a  href=\"https://github.com/Elsie19/Elsie19/issues/new?title=2048|newGame&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"><img src=\"Assets/newGame.png\"/></a>"
 
         with open("README.md", "w") as _readme:
             _readme.write("<!-- 2048GameActions -->".join(readme))
