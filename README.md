@@ -1,6 +1,6 @@
 <div align="center">
 
-## **Plasma**
+## **\~ Elsie \~**
 
 [![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat-square&logo=linux&logoColor=white&color=D79FC7)](https://ubuntu.com/)
 [![](https://img.shields.io/badge/Programming%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=D4A207)](https://www.gnu.org/software/bash/)
