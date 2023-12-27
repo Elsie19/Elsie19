@@ -24,11 +24,10 @@
 | Name | Description |
 |------|-------------|
 | [Alacritty](https://github.com/alacritty/alacritty) | Alacritty is the fastest terminal emulator in existence |
-| [AwesomeWM](https://awesomewm.org/) | awesome is a highly configurable, next generation framework window manager for X |
+| [Hyprland](https://hyprland.org/) | Tiling compositor with the looks |
 | [Neovim](https://neovim.io/) | Hyperextensible Vim-based text editor |
 | [Brave Nightly](https://brave.com/) | Browse privately. Search privately. And ditch Big Tech |
 | [Dracula PRO](https://draculatheme.com/pro) |  Dracula PRO is a color scheme and UI theme tailored for programming |
-| [DT's awesome config](https://gitlab.com/dwt1/dotfiles) | DistroTube's awesomewm config |
 | [Neomutt](https://neomutt.org/) | NeoMutt is a command line mail reader (or MUA). It’s a fork of Mutt with added features |
 | [ohmyZSH](https://ohmyz.sh/) | Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration |
 | [sddm+sugar candy](https://www.pling.com/p/1312658/) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
