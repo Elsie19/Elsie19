@@ -54,7 +54,7 @@
 <!-- 2048Ranking -->
 | Players | Actions |
 |---------------|:---------:|
-| [@Elsie19](https://github.com/Elsie19) | 7 |
+| [@Henryws](https://github.com/Henryws) | 7 |
 | [@hwittenborn](https://github.com/hwittenborn) | 4 |
 | [@IsakTheHacker](https://github.com/IsakTheHacker) | 3 |
 | [@Slackadays](https://github.com/Slackadays) | 3 |

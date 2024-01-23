@@ -1,10 +1,10 @@
 {
     "grid": [
         [
+            8,
             4,
-            4,
-            4,
-            2
+            2,
+            null
         ],
         [
             8,
@@ -20,12 +20,12 @@
         ],
         [
             16,
-            null,
             2,
-            null
+            null,
+            2
         ]
     ],
-    "score": 504,
+    "score": 512,
     "bestScore": 0,
     "moves": [
         "@Henryws",
@@ -88,6 +88,7 @@
         "@mche3kek",
         "@Slackadays",
         "@Diegiwg",
-        "@hpiaia"
+        "@hpiaia",
+        "@Elsie19"
     ]
 }
