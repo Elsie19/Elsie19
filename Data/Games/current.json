@@ -1,31 +1,31 @@
 {
     "grid": [
         [
+            null,
             16,
-            4,
-            4,
+            8,
             2
         ],
         [
+            2,
+            null,
             4,
-            32,
-            null,
-            null
+            32
         ],
         [
+            null,
+            null,
             16,
-            64,
-            null,
-            null
+            64
         ],
         [
             null,
-            2,
-            2,
-            null
+            null,
+            null,
+            4
         ]
     ],
-    "score": 532,
+    "score": 544,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -89,6 +89,7 @@
         "@Slackadays",
         "@Diegiwg",
         "@hpiaia",
-        "@pythoncrazy"
+        "@pythoncrazy",
+        "@seasonedfish"
     ]
 }
