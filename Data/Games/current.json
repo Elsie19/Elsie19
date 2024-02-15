@@ -1,7 +1,7 @@
 {
     "grid": [
         [
-            null,
+            2,
             16,
             8,
             2
@@ -19,8 +19,8 @@
             64
         ],
         [
-            2,
             null,
+            2,
             null,
             4
         ]
@@ -91,6 +91,7 @@
         "@hpiaia",
         "@pythoncrazy",
         "@seasonedfish",
-        "@RocketRace"
+        "@RocketRace",
+        "@nezred"
     ]
 }
