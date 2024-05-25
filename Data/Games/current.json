@@ -7,7 +7,7 @@
             2
         ],
         [
-            null,
+            2,
             2,
             4,
             32
@@ -20,8 +20,8 @@
         ],
         [
             null,
-            2,
             null,
+            2,
             4
         ]
     ],
@@ -92,6 +92,7 @@
         "@pythoncrazy",
         "@seasonedfish",
         "@RocketRace",
-        "@nezred"
+        "@nezred",
+        "@oklopfer"
     ]
 }

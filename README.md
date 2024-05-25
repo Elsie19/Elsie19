@@ -57,12 +57,12 @@
 | [@Elsie19](https://github.com/Elsie19) | 7 |
 | [@hwittenborn](https://github.com/hwittenborn) | 4 |
 | [@IsakTheHacker](https://github.com/IsakTheHacker) | 3 |
+| [@oklopfer](https://github.com/oklopfer) | 3 |
 | [@Slackadays](https://github.com/Slackadays) | 3 |
 | [@Bglaws](https://github.com/Bglaws) | 2 |
 | [@julianchong00](https://github.com/julianchong00) | 2 |
 | [@TheRealOne78](https://github.com/TheRealOne78) | 2 |
 | [@Hepno](https://github.com/Hepno) | 2 |
-| [@oklopfer](https://github.com/oklopfer) | 2 |
 | [@jvadair](https://github.com/jvadair) | 1 |
 <!-- 2048Ranking -->
 
