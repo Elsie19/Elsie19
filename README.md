@@ -15,7 +15,7 @@
 | [Pacstall](https://github.com/pacstall/pacstall) | [![Pacstall](https://img.shields.io/badge/%F0%9F%93%A6-Package%20Manager-orange?style=flat-square)](https://github.com/topics/package-manager)| An AUR like system for Ubuntu |
 | [Venom](https://github.com/Elsie19/Venom) | [![Venom](https://img.shields.io/badge/📝-NeoVim-322b3c?style=flat-square)](https://github.com/topics/Venom) | Venomous Vim config with useful options and a clean interface |
 | [Clam](https://github.com/Elsie19/clam) | [![Dino](https://img.shields.io/badge/🦪-Clam-006400?style=flat-square)](https://github.com/topics/clam) | Development tools for writing shell scripts |
-| [Yafetch](https://github.com/Elsie19/Yafetch) | [![Yafetch](https://img.shields.io/badge/%F0%9F%8E%A8-Yafetch-blue?style=flat-square)](https://github.com/topics/yafetch) | Yet Another Fetch |
+| [Elvi](https://github.com/Elsie19/Elvi) | [![Elvi](https://img.shields.io/badge/🐚-Elvi-pink?style=flat-square)](https://github.com/topics/posix-shell) | A POSIX shell targeting scripting |
 
 
 
