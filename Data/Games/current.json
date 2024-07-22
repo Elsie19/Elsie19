@@ -1,31 +1,31 @@
 {
     "grid": [
         [
-            2,
-            16,
             8,
+            16,
+            32,
             2
         ],
         [
             2,
             null,
-            8,
+            2,
             32
         ],
         [
             null,
             null,
-            16,
+            null,
             64
         ],
         [
             null,
             null,
-            2,
+            null,
             4
         ]
     ],
-    "score": 556,
+    "score": 616,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -94,6 +94,7 @@
         "@RocketRace",
         "@nezred",
         "@oklopfer",
-        "@Alliegaytor"
+        "@Alliegaytor",
+        "@RoyalWolfie"
     ]
 }
