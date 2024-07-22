@@ -8,8 +8,8 @@
         ],
         [
             2,
-            2,
-            4,
+            null,
+            8,
             32
         ],
         [
@@ -25,7 +25,7 @@
             4
         ]
     ],
-    "score": 544,
+    "score": 556,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -93,6 +93,7 @@
         "@seasonedfish",
         "@RocketRace",
         "@nezred",
-        "@oklopfer"
+        "@oklopfer",
+        "@Alliegaytor"
     ]
 }
