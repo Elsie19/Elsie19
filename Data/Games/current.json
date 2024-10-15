@@ -1,27 +1,27 @@
 {
     "grid": [
         [
-            null,
-            null,
+            8,
+            16,
             2,
             2
         ],
         [
             null,
             null,
-            null,
+            32,
             32
         ],
         [
             null,
-            null,
-            32,
+            2,
+            8,
             64
         ],
         [
-            8,
-            16,
-            8,
+            null,
+            null,
+            null,
             4
         ]
     ],
@@ -97,6 +97,7 @@
         "@Alliegaytor",
         "@RoyalWolfie",
         "@n0samu",
-        "@pauliesnug"
+        "@pauliesnug",
+        "@Diegiwg"
     ]
 }
