@@ -3,29 +3,29 @@
         [
             8,
             16,
-            2,
-            2
+            4,
+            null
         ],
         [
+            64,
             null,
             null,
-            32,
-            32
+            null
         ],
         [
-            null,
             2,
             8,
-            64
+            64,
+            null
         ],
         [
+            4,
             null,
             null,
-            null,
-            4
+            2
         ]
     ],
-    "score": 628,
+    "score": 696,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -98,6 +98,7 @@
         "@RoyalWolfie",
         "@n0samu",
         "@pauliesnug",
-        "@Diegiwg"
+        "@Diegiwg",
+        "@Awesomerly"
     ]
 }
