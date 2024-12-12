@@ -8,7 +8,7 @@
 
 ![Alt text](https://komarev.com/ghpvc/?username=Elsie19&style=for-the-badge&color=D79FC7)
   
- ━━━━━━ ❖ ━━━━━━ 
+ ━━━━━━ 🌸 ━━━━━━ 
 ### **Projects**
 | Name | Category | Description |
 |------|----------|-------------|
@@ -19,7 +19,7 @@
 
 
 
- ━━━━━━ ❖ ━━━━━━ 
+ ━━━━━━ 🌸 ━━━━━━ 
 ### **Things I use**
 | Name | Description |
 |------|-------------|
@@ -32,7 +32,7 @@
 | [ohmyZSH](https://ohmyz.sh/) | Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration |
 | [sddm+sugar candy](https://www.pling.com/p/1312658/) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
 
-━━━━━━ ❖ ━━━━━━
+━━━━━━ 🌸 ━━━━━━
 </div>
 
 # To play to 2048
