@@ -47,17 +47,21 @@ A couple things happened from there in a short amount of time, so when reading t
 * We released 1.3 Amaranth[^8], which marked the first release where other contributors existed besides myself.
 
 ## Afterwards
-The next year is pretty boring (just updates as normal and slowly extending what we already had), so I will go to RRR. I forgot exactly how I met AJ, but I did, and whole story short, he had a rolling-release Ubuntu distro, which I found kinda cool, so we integrated pacstall into it as an enhancement. About a year after RRR integrated pacstall, we decided to shut it down in favor of a successor, because the entire OS (much like pacstall) was held together by duct tape and holy water, and it wasn't practical to continue to extend it anymore, so we made Rhino Linux, but this time, pacstall wouldn't just be a side piece, it'd be a full on core component. Some time after, Oren[^9] joined, and at first only worked on the RL side, before coming over to pacstall and basically overhauling everything we had and extending pacstall way past my wildest dreams.
+The next year is pretty boring (just updates as normal and slowly extending what we already had), so I will go to RRR.
+
+One day, AJ joined the pacstall discord server, and he had this thing called *Rolling Rhino Remix*, which was a rolling release Ubuntu-based distro, which I found kinda cool, so we integrated pacstall into it as an enhancement. About a year after RRR integrated pacstall, we (I joined the dev team) decided to shut it down in favor of a successor, because the entire OS (much like pacstall) was held together by duct tape and holy water, and it wasn't practical to continue to extend it anymore, so we made Rhino Linux, but this time, pacstall wouldn't just be a side piece, it'd be a full on core component. Some time after, Oren[^9] joined RL, and at first only worked on the RL side as a graphical designer, and eventually becoming a core developer, before coming over to pacstall and basically overhauling everything we had and extending pacstall way past my wildest dreams.
+
+If my 14 year old self could see what came about from all this, I don't think I would've believed it <3
 
 ---
 
 ## Sources
-[^1]: https://porg.sourceforge.net/
-[^2]: https://www.gnu.org/software/stow/
-[^3]: https://www.reddit.com/r/Ubuntu/comments/n4bleb/an_aur_like_system_for_ubuntu/
-[^4]: https://www.youtube.com/watch?v=MFbO60gBRLg
-[^5]: https://github.com/wizard-28
-[^6]: https://github.com/d-brox
-[^7]: https://github.com/0oAstro
-[^8]: https://github.com/pacstall/pacstall/releases/tag/1.3
-[^9]: https://github.com/oklopfer
+[^1]: <https://porg.sourceforge.net/>
+[^2]: <https://www.gnu.org/software/stow/>
+[^3]: <https://www.reddit.com/r/Ubuntu/comments/n4bleb/an_aur_like_system_for_ubuntu/>
+[^4]: <https://www.youtube.com/watch?v=MFbO60gBRLg>
+[^5]: <https://github.com/wizard-28>
+[^6]: <https://github.com/d-brox>
+[^7]: <https://github.com/0oAstro>
+[^8]: <https://github.com/pacstall/pacstall/releases/tag/1.3>
+[^9]: <https://github.com/oklopfer>
