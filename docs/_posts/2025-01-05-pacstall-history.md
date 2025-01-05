@@ -4,7 +4,7 @@ title: A history of pacstall
 subtitle: The history from my perspective
 gh-repo: pacstall/pacstall
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [pacstall]
 comments: true
 mathjax: false
 author: Elsie
