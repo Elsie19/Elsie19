@@ -10,6 +10,9 @@ mathjax: false
 author: Elsie
 ---
 
+{: .box-note}
+**Note:** This information mostly comes from what I remember, so it might not be wholly accurate, but it is accurate to my memory :)
+
 ## Very Beginning
 My idea of pacstall firstly came out of boredom. I was 14 at the time, and it was during COVID, and I was slowly descending into the depths of Linux. I had been using Linux since I was 8, but the mind of a kid isn't really that interested in the complexities of their computer, but at 14 something clicked, and with my marginal skills in bash that I had aquired, I decided I should make something. I don't exactly remember where my idea for a package manager came from, but it probably stemmed from the fact that it was the most interesting thing my 14 year old brain saw on my system, and it didn't seem "too hard". So I decided to start on it. I was really stupid so I started uploading tarballs to my repo (I had no idea of how git really worked), and started to work on a preliminary system that followed this general structure:
 
