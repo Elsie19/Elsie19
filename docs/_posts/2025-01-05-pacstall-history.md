@@ -18,20 +18,20 @@ My idea of pacstall firstly came out of boredom. I was 14 at the time, and it wa
 
 1. Get package tarball from repo.
 2. Get individual bash scripts from repo and run them (such as `build.sh`, `install.sh`).
-3. Install with (and this part changed very early from `checkinstall(8)` (`577fab6a168aba4fea69451902fc86c48ba039ee`)) porg[^1] (`b0d8c31de3a140fba1265fef51d12bbadebcd335`).
+3. Install with (and this part changed very early from [`checkinstall(8)`](https://manpages.debian.org/buster-backports/checkinstall/checkinstall.8.en.html) to) porg[^1].
 
 The entire purpose of pacstall was simply to orchestrate building packages as they came from upstream and interface as little as possible with the system, to the point where you could eventually drop in a tarball with instructions and let pacstall handle everything on any system it was on. Essentially I wanted a universal source-based package manager that sat on top of the hosts package manager for its primary dependency management (which the last part isn't actually too far off from what we have today, so that part survived).
 
 Now looking at this retrospectively, it's pretty smart (the concept not the execution), but as a 14 year old, I didn't have a grand vision and sort of did whatever I thought ought to be the "new way forward", and things were very fluid early on; the only major thing guiding me was it had to interface with the host package manager for dependencies (because I wasn't a good programmer I didn't want to make that system myself). Honestly I felt a little bit like a fraud: resting on the laurels of giants (package managers) where all I was doing was making a thin "package manager" on top of theirs. That feeling has still persisted till today and I don't think I've told anyone about that yet until now.
 
-At the end of this whole endeavour, I "supported" a couple different OSs (`a97989b41af4bd8e391c40059ba91eee2e8b68e0`), of which only Ubuntu survived till today.
+At the end of this whole endeavour, I "supported" a couple different OSs, of which only Ubuntu survived till today.
 
 ## Getting smarter
 So during the next "generation" of pacstall, I had been learning a lot more about package managers and how they really work, and I had been putting it into use. I decided on the two biggest changes I had done up until that point:
 
-1. Replace build scripts and integrated with a PKGBUILD-esque system (`90b3c75da18bd94798754e7bd3838a9004e5b3d6`).
+1. Replace build scripts and integrated with a PKGBUILD-esque system.
     * This was to consolidate the complexity of build logic and package logic into one file.
-2. Replace porg with GNU Stow[^2] (`f748d3a32989f3bfea605829dd5e9a37ca8f36a1`).
+2. Replace porg with GNU Stow[^2].
     * This was to "partition" out installed packages from what had been installed straight onto `/` into a place where I could just `rm -rf` it and it was gone from the system.
 
 Then I took a break. I got bored; didn't see much value in it. This is probably where I felt the most fraudulent of all. I felt that if I couldn't actually make something without in my mind "hijacking other package managers", what was the point?
