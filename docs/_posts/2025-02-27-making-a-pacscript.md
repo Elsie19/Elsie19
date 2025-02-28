@@ -18,7 +18,7 @@ For this post, I will *not* be packaging one of these. There are a couple reason
 
 I'm going to package [soar](https://github.com/pkgforge/soar), which from the tin says that it is:
 
-> A fast, modern package manager for Static Binaries, Portable Formats (AppImage|AppBundle|FlatImage|Runimage) & More
+> A fast, modern package manager for Static Binaries, Portable Formats \(AppImage\|AppBundle\|FlatImage\|Runimage\) & More
 
 ## Prerequisites
 
