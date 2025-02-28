@@ -229,7 +229,7 @@ error: could not find `Cargo.toml` in `/tmp/pacstall/soar~0.5.9` or any parent d
 [+] INFO: Cleaning up
 ```
 
-Well that was a bust. I looked into the download archive, and we shouldn't be cd'ing into `soar`, but `soar-${pkgver}`, so let's adjust the pacscript and send it back to the docker to re-test:
+Well that was a bust. Remember when I downloaded the archive to get the hash? When I inspect it, I see that inside the archive, the next directory inside is `soar-0.5.9`, which is just `soar-${pkgver}`, so let's adjust the pacscript and send it back to the docker to re-test:
 
 ```bash
 pkgname="soar"
