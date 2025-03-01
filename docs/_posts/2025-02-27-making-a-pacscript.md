@@ -182,10 +182,10 @@ Luckily, we have tools for this, specifically [pacstall-docker-builder](https://
 
 #### Getting our docker image
 
-We will need to clone the repository and figure out some important generation flags:
+We will need install the program and decide on some important flags:
 
 ```bash
-git clone https://github.com/pacstall/docker pacstall-docker-builder && cd pacstall-docker-builder
+pacstall -I pacstall-docker-builder-git
 ```
 
 We are going to want to generate an Ubuntu release with a apt version of cargo that satisfies soar's constraints (`ubuntu:devel` or `ubuntu:25.04`), so the command should look something like:
