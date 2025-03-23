@@ -4,25 +4,25 @@
             8,
             16,
             4,
-            null
+            2
         ],
         [
             64,
-            null,
-            null,
-            null
-        ],
-        [
-            2,
             8,
             64,
             null
         ],
         [
+            2,
+            null,
+            null,
+            null
+        ],
+        [
             4,
+            2,
             null,
-            null,
-            2
+            null
         ]
     ],
     "score": 696,
@@ -99,6 +99,7 @@
         "@n0samu",
         "@pauliesnug",
         "@Diegiwg",
-        "@Awesomerly"
+        "@Awesomerly",
+        "@matezoltanfarkas"
     ]
 }
