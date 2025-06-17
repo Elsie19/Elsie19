@@ -3,8 +3,8 @@
         [
             null,
             null,
-            2,
-            null
+            null,
+            2
         ],
         [
             null,
@@ -20,12 +20,12 @@
         ],
         [
             2,
+            2,
             64,
-            4,
-            4
+            8
         ]
     ],
-    "score": 700,
+    "score": 708,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -102,6 +102,7 @@
         "@Awesomerly",
         "@matezoltanfarkas",
         "@partially-unresponsive",
-        "@chrisb09"
+        "@chrisb09",
+        "@AMDmi3"
     ]
 }
