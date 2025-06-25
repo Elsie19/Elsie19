@@ -1,16 +1,16 @@
 {
     "grid": [
         [
-            null,
-            null,
             4,
+            2,
+            null,
             null
         ],
         [
+            8,
             null,
             null,
-            4,
-            4
+            null
         ],
         [
             8,
@@ -19,13 +19,13 @@
             64
         ],
         [
-            2,
-            2,
+            4,
             64,
-            8
+            8,
+            null
         ]
     ],
-    "score": 712,
+    "score": 724,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -104,6 +104,7 @@
         "@partially-unresponsive",
         "@chrisb09",
         "@AMDmi3",
-        "@chrisb09"
+        "@chrisb09",
+        "@AMDmi3"
     ]
 }
