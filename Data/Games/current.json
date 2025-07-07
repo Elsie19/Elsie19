@@ -3,29 +3,29 @@
         [
             4,
             2,
-            null,
-            null
-        ],
-        [
-            8,
-            null,
-            null,
-            null
-        ],
-        [
-            8,
             16,
-            8,
             64
+        ],
+        [
+            16,
+            16,
+            null,
+            null
         ],
         [
             4,
             64,
-            8,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            2,
             null
         ]
     ],
-    "score": 724,
+    "score": 756,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -105,6 +105,7 @@
         "@chrisb09",
         "@AMDmi3",
         "@chrisb09",
-        "@AMDmi3"
+        "@AMDmi3",
+        "@Loudmouthcat"
     ]
 }
