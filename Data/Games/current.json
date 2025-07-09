@@ -2,27 +2,27 @@
     "grid": [
         [
             4,
-            2,
-            16,
-            64
-        ],
-        [
-            16,
-            16,
+            null,
             null,
             null
         ],
         [
             4,
-            64,
+            2,
             null,
             null
         ],
         [
-            null,
-            null,
-            2,
+            16,
+            16,
+            16,
             null
+        ],
+        [
+            4,
+            64,
+            2,
+            64
         ]
     ],
     "score": 756,
@@ -106,6 +106,7 @@
         "@AMDmi3",
         "@chrisb09",
         "@AMDmi3",
-        "@Loudmouthcat"
+        "@Loudmouthcat",
+        "@rodrigo-hahn"
     ]
 }
