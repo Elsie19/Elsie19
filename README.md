@@ -13,11 +13,7 @@
 | Name | Category | Description |
 |------|----------|-------------|
 | [Pacstall](https://github.com/pacstall/pacstall) | [![Pacstall](https://img.shields.io/badge/%F0%9F%93%A6-Package%20Manager-orange?style=flat-square)](https://github.com/topics/package-manager)| An AUR like system for Ubuntu |
-| [Venom](https://github.com/Elsie19/Venom) | [![Venom](https://img.shields.io/badge/📝-NeoVim-322b3c?style=flat-square)](https://github.com/topics/Venom) | Venomous Vim config with useful options and a clean interface |
-| [Clam](https://github.com/Elsie19/clam) | [![Dino](https://img.shields.io/badge/🦪-Clam-006400?style=flat-square)](https://github.com/topics/clam) | Development tools for writing shell scripts |
-| [Elvi](https://github.com/Elsie19/Elvi) | [![Elvi](https://img.shields.io/badge/🐚-Elvi-pink?style=flat-square)](https://github.com/topics/posix-shell) | A POSIX shell targeting scripting |
-
-
+| [rhino-pkg](https://github.com/rhino-linux/rhino-pkg) | [![rpk](https://img.shields.io/badge/📝-Meta%20Package%20Manager-322b3c?style=flat-square)](https://github.com/topics/meta-package-manager) | A package manager wrapper for Rhino Linux |
 
  ━━━━━━ 🌸 ━━━━━━ 
 ### **Things I use**
@@ -30,7 +26,7 @@
 | [Dracula PRO](https://draculatheme.com/pro) |  Dracula PRO is a color scheme and UI theme tailored for programming |
 | [Neomutt](https://neomutt.org/) | NeoMutt is a command line mail reader (or MUA). It’s a fork of Mutt with added features |
 | [ohmyZSH](https://ohmyz.sh/) | Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration |
-| [sddm+sugar candy](https://www.pling.com/p/1312658/) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
+| [sddm+eucalyptus drop](https://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
 
 ━━━━━━ 🌸 ━━━━━━
 </div>
