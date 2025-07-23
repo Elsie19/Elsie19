@@ -14,6 +14,7 @@
 |------|----------|-------------|
 | [Pacstall](https://github.com/pacstall/pacstall) | [![Pacstall](https://img.shields.io/badge/%F0%9F%93%A6-Package%20Manager-orange?style=flat-square)](https://github.com/topics/package-manager)| An AUR like system for Ubuntu |
 | [rhino-pkg](https://github.com/rhino-linux/rhino-pkg) | [![rpk](https://img.shields.io/badge/📝-Meta%20Package%20Manager-322b3c?style=flat-square)](https://github.com/topics/meta-package-manager) | A package manager wrapper for Rhino Linux |
+| [vapor](https://github.com/Elsie19/vapor) | [![vapor](https://img.shields.io/badge/🎮-Mod%20Manager-F3E600?style=flat-square)](https://github.com/topics/mod-manager) | A Cyberpunk 2077 mod manager for Linux |
 
  ━━━━━━ 🌸 ━━━━━━ 
 ### **Things I use**
