@@ -1,31 +1,31 @@
 {
     "grid": [
         [
-            4,
-            null,
-            null,
-            null
-        ],
-        [
-            4,
+            8,
             2,
-            null,
-            null
+            16,
+            64
         ],
         [
             16,
             16,
-            16,
+            2,
             null
         ],
         [
             4,
             64,
+            null,
+            null
+        ],
+        [
             2,
-            64
+            null,
+            null,
+            null
         ]
     ],
-    "score": 756,
+    "score": 764,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -107,6 +107,7 @@
         "@chrisb09",
         "@AMDmi3",
         "@Loudmouthcat",
-        "@rodrigo-hahn"
+        "@rodrigo-hahn",
+        "@JadXV"
     ]
 }
