@@ -7,25 +7,25 @@
             64
         ],
         [
-            16,
-            16,
-            2,
-            null
+            null,
+            null,
+            32,
+            2
         ],
         [
+            null,
+            null,
             4,
-            64,
-            null,
-            null
+            64
         ],
         [
             2,
             null,
             null,
-            null
+            2
         ]
     ],
-    "score": 764,
+    "score": 796,
     "bestScore": 0,
     "moves": [
         "@Elsie19",
@@ -108,6 +108,7 @@
         "@AMDmi3",
         "@Loudmouthcat",
         "@rodrigo-hahn",
-        "@JadXV"
+        "@JadXV",
+        "@Zahrun"
     ]
 }
