@@ -20,7 +20,7 @@ Betera
 
 \[Verse 1\]
 <details>
-    <summary>Iċ werie mīn rihtlīċe āgene liþrene sċōs</summary>
+    <summary>Iċ werie mīn rihtlīċe āgnan liþrenan sċōs</summary>
     I wear my rightly owned leather shoes
 </details>
 <details>
@@ -228,9 +228,3 @@ Betera
     <summary>Ġēa</summary>
     Yeah
 </details>
-
-# ᛖᛝᚷᛚᛁᛋᚳ᛫ᚱᚢᚾᚪ
-
-## ᛗᛖ᛫ᛚᛁᚳᚪᚦ᛫ᚦᛁᚾ᛫ᛚᛖᚳ
-
-tbh :)
