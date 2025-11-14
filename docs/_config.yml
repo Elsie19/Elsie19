@@ -46,14 +46,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "hwengerstickel@pm.me"
+  email: "ewengerstickel@protonmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: Elsie19
 #  medium: yourname
-  reddit: TheGoldenPotato69
 #  linkedin: daattali
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+  stackoverflow: "13449010/elsie"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
@@ -123,7 +122,7 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
+# Personalize the colors in your website. Colour values can be any valid CSS color
 
 page-col: "#282a36"
 text-col: "#f8f8f2"
@@ -138,13 +137,13 @@ footer-link-col: "#8be9fd"
 footer-hover-col: "#bd93f9"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
+# instead of color
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+# Suggest a color for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
