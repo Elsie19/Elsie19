@@ -541,4 +541,66 @@ Because `self` is now saying "gimme ownership of this object", you have full own
 1. The object at the end of the method will drop out of scope because it's not being returned.
 2. Because of this, you can return out its members, because the Rust compiler is smart enough to know that the object won't exist by the end of the function, so it permits this.
 
+This is how builder patterns in Rust work, because you chain methods that take `self` and return new values from them:
+
+```rust
+struct Foo {
+    bar: String,
+    baz: u64,
+    bing: Vec<char>,
+}
+
+struct FooBuilder {
+    bar: String,
+    baz: u64,
+    bing: Vec<char>,
+}
+
+impl FooBuilder {
+    fn new() -> Self {
+        Self {
+            bar: String::new(),
+            baz: u64::MIN,
+            bing: vec![],
+        }
+    }
+
+    fn bar<S: Into<String>>(mut self, bar: S) -> Self {
+        self.bar = bar.into();
+        self
+    }
+
+    fn baz(mut self, baz: u64) -> Self {
+        self.baz = baz;
+        self
+    }
+
+    fn bing<I>(mut self, bing: I) -> Self
+    where
+        I: IntoIterator<Item = char>,
+    {
+        self.bing = bing.into_iter().collect();
+        self
+    }
+
+    fn build(self) -> Foo {
+        Foo {
+            bar: self.bar,
+            baz: self.baz,
+            bing: self.bing,
+        }
+    }
+}
+
+fn main() {
+    let foo = FooBuilder::new()
+        .bar("here's bar!")
+        .baz(17)
+        .bing(['w', 'o', 'a', 'h'])
+        .build();
+}
+```
+
+---
+
 [^1]: When they are not being stored.
