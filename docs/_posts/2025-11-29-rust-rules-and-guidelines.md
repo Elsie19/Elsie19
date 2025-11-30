@@ -845,7 +845,7 @@ struct Range<T> {
 }
 ```
 
-Because pointers have no lifetimes (you can't do `*'a const T`), we can't assure the compiler that `lower` and `upper` will even live at least the same time! Now we can use `PhantomData<&'a T>`:
+Because pointers have no lifetimes (you can't do `*'a const T`), we can't assure the compiler that `lower` and `upper` will even live for at least the lifetime of `Range`! Now we can use `PhantomData<&'a T>`:
 
 ```rust
 struct Range<'a, T: 'a> {
