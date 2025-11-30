@@ -461,7 +461,7 @@ flowchart LR
     linkStyle default stroke: white
 ```
 
-Well shit. You can see the problem right? There's a pointer to a place that doesn't exist anymore. If you even use/look at/interact with that pointer, your program will explode.
+Well shit. You can see the problem right? There's a pointer to a place that doesn't exist anymore. If you even use/look at/interact with that pointer, your program will explode. This is exactly why Rust follows RAII and strictly prevents multiple ownership.
 
 ![Elmo in hell because of your bad pointer use 👿](https://media1.tenor.com/m/_jODXMcJX8kAAAAd/elmo-burning.gif)
 
