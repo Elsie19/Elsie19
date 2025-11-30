@@ -424,7 +424,7 @@ Owned values can only be returned in three instances:
 
 #### `Copy`able values
 
-`Copy` is a trait that instructs the compiler that a value is trivially copyable (values can be bitwise copied). Any type that contains some form of reference cannot implement `Copy`, because a bitwise copy on that value would copy the reference, not the values underneath the reference. The copied reference means that there would be two pointers to the inner value, so when the first value you copied goes out of scope, it will deallocate that memory, leaving you with two problems:
+`Copy` is a trait that instructs the compiler that a value is trivially copyable (values can be bitwise copied). Any type that contains some form of reference cannot implement `Copy`, because a bitwise copy on that value would copy the reference, not the value underneath the reference. The copied reference means that there would be two pointers to the inner value, so when the first value you copied goes out of scope, it will deallocate that memory, leaving you with two problems:
 
 1. Your underlying data is now missing in your second value.
 2. Assuming you don't try to interact with that missing data (unlikely), once the second value goes out of scope, it will try to free empty memory (double free!).
@@ -442,6 +442,7 @@ flowchart LR
     H["Heap Data"]
     B["my_obj2 (ptr -> Heap)"]
 
+    A -->|"copied"| B
     A -->|"*ptr (0x7fff6850ccdc)"| H
     B -->|"*ptr (0x7ffd3ae29cbc)"| H
 
