@@ -90,7 +90,8 @@ impl Message {
     }
 
     fn msg_eq(&self, rhs: &str) -> bool {
-        // `&str` is not an owned type, so the caller does not necessarily have to construct
+        // `&str` is not an owned type, so the caller
+        // does not necessarily have to construct
         // an owned value (`String`).
         self.msg == rhs
     }
@@ -237,7 +238,9 @@ where
     }
 }
 
-// Or if you don't want the impl part (there are technical differences between that and the following code, but it's minimal):
+// Or if you don't want the impl part
+// (there are technical differences between
+// that and the following code, but it's minimal):
 
 fn iter_and_print<I, T>(iter: I)
 where
@@ -376,7 +379,8 @@ trait RectangleShape {
     fn points(&self) -> [Point; 4];
 }
 
-// Circle shape must always be a circle, anything else violates its inherent identity!
+// Circle shape must always be a circle,
+// anything else violates its inherent identity!
 struct Circle<T: CircleShape> {
     shape: T,
 }
