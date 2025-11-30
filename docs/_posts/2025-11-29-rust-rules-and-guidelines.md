@@ -611,7 +611,7 @@ impl CoolString {
 
 #### Owned values transferring ownership
 
-This one is pretty simple. In Rust, the RAII principle is followed, meaning three things: a value can only have one owner, a value can have many references to it, and when a value's lifetime is no longer in the scope's lifetime that it was created in, it will be freed. This is why you can't return owned values when you have `&self`:
+This one is pretty simple. In Rust, the RAII principle is followed, meaning three things: a value can only have one owner, a value can have many references to it, and when a value's lifetime is no longer in the scope's lifetime that it was created in, it will be freed. This is why you can't return owned values when you have `&self` unless you have `Copy`:
 
 ```rust
 struct Foo(String);
@@ -623,7 +623,7 @@ impl Foo {
 }
 ```
 
-Because `&self` is a reference to the current object (the owner), you cannot return the owned value out, because that would mean that there are now two owners at two different scopes and/or lifetimes (and either way, you don't actually have access to the underlying value, just a reference to it). Instead, you must return a reference (like you've seen before), or transfer ownership out of the owner:
+Because `&self` is a reference to the current object (the owner), you cannot return the owned value out. Instead, you could return a `&String`, but that's ugly. In rust, you rarely want to return a reference to a heap allocated object *if* a stack variant exists. The more canonical method is to transfer ownership out of the owner:
 
 ```rust
 struct Foo(String);
