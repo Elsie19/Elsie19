@@ -8,6 +8,14 @@ mathjax: false
 author: Elsie
 ---
 
+<script type="module">
+    Array.from(document.getElementsByClassName("language-mermaid")).forEach(element => {
+      element.classList.add("mermaid");
+    });
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 # Random Rust Rules
 
 This should serve as a quick and easy to reference guide for Rust beginners.
@@ -239,7 +247,7 @@ I coined this term to mean structs/enums that have bounds on them intentionally 
 2. Inedible food.
 3. A rainbow cat.
 
-Only one of these examples has an some identity not inherent to itself, ||that being the rainbow cat||.
+Only one of these examples has an some identity not inherent to itself, that being the rainbow cat.
 
 ### Four-sided Circles
 
