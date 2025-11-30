@@ -42,7 +42,7 @@ author: Elsie
 
 I've been programming in Rust for a while, and I have helped a lot of people learn it as well, but most novices fall into the same couple traps. These usually come from a superficial level of the trait system, the borrow checker, etc. I hope to explain the *how* behind these concepts and patterns that are so deeply integrated into every piece of Rust code you'll ever see.
 
-<!-- Add variants, covariants, and contravariants -->
+<!-- Add variants, covariants, and contravariants & PhantomData -->
 
 ## Reference values
 
@@ -332,7 +332,7 @@ Now for those very few cases where it is better to have the bounds on the item i
 
 ### Inherent Identity
 
-I coined this term to mean structs/enums that have bounds on them intentionally and thoughtfully. Whenever you see something like `Object<T: Trait>`, don't think of it like, "all `Object`s must constrain `T` to implement `Trait`", instead, it means, "`Object` is illogical without `T: Trait`". Because of this, the verbosity tradeoff of having a trait bound on every `impl` and method is ok, because every method in the object must assume those properties, for instance, think about the following English examples, then I will map that to Rust code:
+I coined this term to mean structs/enums that have bounds on them intentionally and thoughtfully. Whenever you see something like `Object<T: Trait>`, don't think of it like, "all `Object`s must constrain `T` to implement `Trait`", instead, it means, "`Object` is illogical without `T` having `Trait`". Because of this, the verbosity tradeoff of having a trait bound on every `impl` and method is okay, because every method in the object must assume those properties, for instance, think about the following English examples, then I will map that to Rust code:
 
 1. A four-sided circle.
 2. Inedible food.
@@ -408,6 +408,7 @@ By doing this, we have encoded the inherent property into `Snack` that food by d
 Cats do not strictly have a set color as part of their identity: they can be beige, black, spotted, even hairless! And even so, many methods don't require the property about it's color, so we could model it like this:
 
 ```rust
+#[derive(Copy, Clone)]
 struct Rgb {
     r: u8,
     g: u8,
@@ -417,17 +418,17 @@ struct Rgb {
 struct NoColor;
 
 trait Color {
-    fn what_color(&self) -> Option<&Rgb>;
+    fn what_color(&self) -> Option<Rgb>;
 }
 
 impl Color for Rgb {
-    fn what_color(&self) -> Option<&Rgb> {
+    fn what_color(&self) -> Option<Rgb> {
         Some(self)
     }
 }
 
 impl Color for NoColor {
-    fn what_color(&self) -> Option<&Rgb> {
+    fn what_color(&self) -> Option<Rgb> {
         None
     }
 }
