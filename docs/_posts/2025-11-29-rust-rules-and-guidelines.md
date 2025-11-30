@@ -124,7 +124,7 @@ Some heap-allocated types have a referenced (stack) variant, such as:
 * `PathBuf` -> `&Path`
 * `Vec<T>` -> `&[T]`
 
-In mathematical terms, we could represent it as $O \sqsubseteq R$ where `O` is the owned variant of the `R`eference, meaning that any `O` can be used in contexts where `R` is expected.
+In mathematical terms, we could represent it as $$O \sqsubseteq R$$ where `O` is the owned variant of the `R`eference, meaning that any `O` can be used in contexts where `R` is expected.
 
 In programming terms, this usually is implemented by having the underlying type in an owned type, such as:
 
