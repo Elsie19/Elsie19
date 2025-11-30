@@ -158,7 +158,7 @@ Often, you might find yourself wanting to add generic bounds on the struct/enum 
 Let's try to build a silly example:
 
 ```rust
-/// A jar that holds a prize!
+// A jar that holds a prize!
 struct PrizeJar<T> {
     contents: T,
 }
@@ -183,7 +183,7 @@ Which now spreads everywhere:
 ```rust
 use std::ops::MulAssign;
 
-/// A jar that holds a prize!
+// A jar that holds a prize!
 struct PrizeJar<T: MulAssign + Copy> {
     contents: T,
 }
@@ -213,7 +213,7 @@ Instead, you should have a bare generic bound on the struct/enum, and add bounds
 ```rust
 use std::ops::MulAssign;
 
-/// A jar that holds a prize!
+// A jar that holds a prize!
 struct PrizeJar<T> {
     contents: T,
 }
@@ -251,7 +251,7 @@ Only one of these examples has an some identity not inherent to itself, that bei
 
 ### Four-sided Circles
 
-A circle is defined as a shape where all points are the same distance from a given point, the center. Thus, it is illogical that a circle can have a property where it has four sides, because that violates its inherent identity, so we could define it in code as this:
+A circle is defined as a shape where all points are the same distance from a given point, the center. Thus, it is illogical that a circle can have a property where it has four sides because that violates its inherent identity, so we could define it in code as this:
 
 ```rust
 struct Point {
@@ -279,13 +279,13 @@ struct Circle<T: CircleShape> {
 By the definition of food, it must be edible (fit for human consumption), so we could model it this way:
 
 ```rust
-/// Can a human digest it?
+// Can a human digest it?
 trait Edible {}
 
-/// Is it palatable?
+// Is it palatable?
 trait Eatable: Edible {}
 
-/// All food must be at least edible, even if you don't like it ;)
+// All food must be at least edible, even if you don't like it ;)
 trait Food: Edible {}
 
 trait Person {
@@ -293,10 +293,10 @@ trait Person {
     fn likes<T: Food + Eatable>(&self, _food: &T) -> bool;
 }
 
-/// A snack must be food and tasty (to someone)!
-///
-/// If you eat a snack but it's not tasty, it's not really
-/// a snack, it's torture :)
+// A snack must be food and tasty (to someone)!
+//
+// If you eat a snack but it's not tasty, it's not really
+// a snack, it's torture :)
 struct Snack<T: Food + Eatable> {
     snack: T,
 }
@@ -430,6 +430,8 @@ flowchart LR
 
     A -->|"*ptr (0x7fff6850ccdc)"| H
     B -->|"*ptr (0x7ffd3ae29cbc)"| H
+
+    linkStyle default stroke: white
 ```
 
 Notice how both have access to the same underlying data at the same time. This is actually allowed in Rust, but only when the values are not owned values in an enum/struct and are in the same lifetime, so this is perfectly valid:
@@ -455,6 +457,8 @@ flowchart LR
 
     style A fill:#FF0000,color:#000000,stroke:#444
     style H fill:#FF0000,color:#000000,stroke:#444
+
+    linkStyle default stroke: white
 ```
 
 Well shit. You can see the problem right? There's a pointer to a place that doesn't exist anymore. If you even use/look at/interact with that pointer, your program will explode.
