@@ -529,7 +529,7 @@ Owned values can only be returned in three instances:
 Here's a diagram that goes through the steps of a theoretical `Copy`able pointer, where we did something like:
 
 ```rust
-let my_obj = obj::new();
+let my_obj = Obj::new();
 let my_obj2 = my_obj; // Copied here.
 ```
 
@@ -831,7 +831,27 @@ fn dummy(item: &str) -> &str {
 }
 ```
 
-We don't have to annotate the references with a lifetime because there is literally only one possible lifetime (besides `'static`), so it will *elide* it.
+We don't have to annotate the references with a lifetime because there is literally only one possible lifetime (besides `'static`), so it will *elide* it. This is actually how we can return references from `&self`, because the compile automatically inserts a lifetime that binds the returned reference to the lifetime of the object itself, so the following are equivalent:
+
+```rust
+struct Foo(String);
+
+impl Foo {
+    fn val(&self) -> &str {
+        &self.0
+    }
+}
+```
+
+```rust
+struct Foo(String);
+
+impl Foo {
+    fn val<'a>(&'a self) -> &'a str {
+        &self.0
+    }
+}
+```
 
 Now if you've been a careful reader, you'll notice I've not said "the same lifetime", instead, "at least the same lifetime". That's because there is a special lifetime called `'static`, which states that the reference will live *until* the end of the lifetime of the running program. Many novices misunderstand `'static` to mean "lives the entire program" but that is only one way you can use it:
 
