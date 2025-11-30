@@ -307,12 +307,14 @@ trait Person {
     fn likes<T: Food + Eatable>(&self, _food: &T) -> bool;
 }
 
-// A snack must be food and tasty (to someone)!
-//
-// If you eat a snack but it's not tasty, it's not really
-// a snack, it's torture :)
-struct Snack<T: Food + Eatable> {
+struct Snack<T: Food> {
     snack: T,
+}
+
+impl<T: Food> Snack<T> {
+    fn new(snack: T) -> Self {
+        Self { snack }
+    }
 }
 
 impl<T: Food + Eatable> Snack<T> {
@@ -322,7 +324,7 @@ impl<T: Food + Eatable> Snack<T> {
 }
 ```
 
-By doing this, we have encoded the inherent property into `Snack` that food by definition cannot be inedible; it's always edible.
+By doing this, we have encoded the inherent property into `Snack` that food by definition cannot be inedible; it's always edible, unless you eat bricks, and that in order for someone to like it, it must be eatable for them.
 
 ### Rainbow Cat
 
