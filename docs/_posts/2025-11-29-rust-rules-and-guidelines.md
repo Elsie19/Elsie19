@@ -22,6 +22,26 @@ This should serve as a quick and easy to reference guide for Rust beginners.
 
 I'll expand and clarify these rules as needed.
 
+# Table of Contents
+
+- [Reference values](#reference-values)
+  - [Remember this!](#remember-this)
+    - [Parameters](#parameters)
+    - [Return values](#return-values)
+- [Impl/Generic parameters](#implgeneric-parameters)
+  - [Remember this!](#remember-this)
+- [Unconstrained generics](#unconstrained-generics)
+  - [Inherent Identity](#inherent-identity)
+  - [Four-sided Circles](#four-sided-circles)
+  - [Inedible Food](#inedible-food)
+  - [Rainbow Cat](#rainbow-cat)
+  - [Remember this!](#remember-this)
+- [Ownership](#ownership)
+  - [When can I return owned values?](#when-can-i-return-owned-values)
+    - [`Copy`able values](#copyable-values)
+    - [Owned values created in the function](#owned-values-created-in-the-function)
+    - [Owned values transferring ownership](#owned-values-transferring-ownership)
+
 ## Reference values
 
 As a general rule, owned values should be stored, and references should be accepted as parameters[^1] and returned.
