@@ -459,6 +459,16 @@ let my_ptr = *my_ref;
 let my_second_ptr = *my_ref;
 ```
 
+But this is not:
+
+```rust
+let my_string = String::from("hello"); // Good
+let my_stref = &my_string; // Good
+
+let my_strointer = *my_stref; // Nope, not allowed.
+let my_second_strointer = *my_stref; // Ditto.
+```
+
 But back to our copyable pointer object. Now we have successfully copied the pointer and the object, so let's throw a wrench in this: I just [dropped](https://doc.rust-lang.org/std/ops/trait.Drop.html#tymethod.drop) `my_obj` out of scope, it no longer exists:
 
 ```mermaid
