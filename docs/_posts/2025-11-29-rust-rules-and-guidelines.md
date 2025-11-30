@@ -904,7 +904,7 @@ struct Range<'a, T: 'a> {
 Two things you should notice:
 
 1. We added a lifetime `'a` and made `T: 'a`, telling the compiler that `T` must live at least as long as `'a`. This is our contract.
-2. We added `PhantomData<&'a T>`, which tells the compiler, "yes, `T` will live at least as long as `'a`". This is our "implementation".
+2. We added `PhantomData<&'a T>`, which tells the compiler, "yes, the `T` you give me will live at least as long as `'a`". This is our "implementation".
 
 This is mainly used in FFI when the code you are wrapping has the same contract of lifetimes but cannot be automatically detected by the Rust compiler.
 
