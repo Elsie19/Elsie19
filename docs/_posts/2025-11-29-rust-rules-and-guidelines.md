@@ -38,11 +38,12 @@ author: Elsie
     - [`Copy`able values](#copyable-values)
     - [Owned values created in the function](#owned-values-created-in-the-function)
     - [Owned values transferring ownership](#owned-values-transferring-ownership)
-  - [When can I use references in structs/enums?](#when-can-i-use-references-in-structsenums)
+  - [`PhantomData<T>`](#phantomdatat)
+    - [Identifying Generics](#identifying-generics)
+      - [Remember this!](#remember-this)
+    - [Covariancy](#covariancy)
 
 I've been programming in Rust for a while, and I have helped a lot of people learn it as well, but most novices fall into the same couple traps. These usually come from a superficial level of the trait system, the borrow checker, etc. I hope to explain the *how* behind these concepts and patterns that are so deeply integrated into every piece of Rust code you'll ever see.
-
-<!-- Add variants, covariants, and contravariants & PhantomData -->
 
 ## Reference values
 
@@ -109,7 +110,7 @@ pub trait Deref {
 }
 ```
 
-And it's pretty simple: it takes `&self` and returns `&Target`, but what really does this mean and how is it used?
+And it's pretty simple: it takes `&self` and returns `&Target`, where `Target` doesn't have to be `Sized` (so reference types without the reference) but what really does this mean and how is it used?
 
 There are two instances where `Deref` is used:
 
@@ -683,15 +684,183 @@ fn main() {
 }
 ```
 
-### When can I use references in structs/enums?
+### `PhantomData<T>`
 
-You've probably come across something like this in the rust docs:
+#### Identifying Generics
+
+`PhantomData<T>` is a special struct in Rust, because it contains a generic but never instantiates it.
+
+Now in Rust (except for this case), any struct/enum with a generic must be instantiated with that value somewhere in it:
 
 ```rust
-pub struct SomeStruct<'a> { /* private fields */ }
+enum Option<T> {
+    Some(T),
+    None,
+}
 ```
 
-And wondered what that `'a` means. Well I'll tell you later because I gotta catch a flight lol.
+It makes no sense to the compiler to have something like:
+
+```rust
+struct CollegePerson<T> {
+    name: String,
+    id: u16,
+}
+```
+
+But I really just want to add some generic that can be used as an identifier and do some custom logic depending on it. In comes `PhantomData<T>`: It's a generic marker holder that takes up no space in the struct and is simply a hint to the compiler that you want to operate on a generic just based on the properties of `T`, not on the properties of the value of `T`.
+
+A couple weeks ago, I saw this [video by Tsoding](https://youtu.be/xNX9H_ZkfNE) where he wrote a graphics library for the [PPM image format](https://en.wikipedia.org/wiki/Netpbm), so I decided to make my own in Rust, and it was going along great! I implemented both the ASCII and binary formats, and had a `Display` impl on it so that I could write it out to the console, but then I realized, "wait, that only works for ASCII, it makes no sense for binary formats". So I sketched out something that looked roughly like:
+
+```rust
+use std::fmt::Display;
+
+trait PpmFormat {}
+
+trait PpmAscii: PpmFormat {}
+trait PpmBinary: PpmFormat {}
+
+struct Ascii;
+struct Binary;
+
+impl PpmAscii for Ascii {}
+impl PpmFormat for Ascii {}
+
+impl PpmBinary for Binary {}
+impl PpmFormat for Binary {}
+
+struct Ppm<T: PpmFormat> { ... }
+
+impl<T: PpmFormat> Ppm<T>
+where
+    T: PpmBinary,
+{
+    fn as_bytes(&self) -> Vec<u8> { ... }
+}
+
+impl<T: PpmFormat> Display for Ppm<T>
+where
+    T: PpmAscii,
+{
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result { ... }
+}
+```
+
+This is how I forced a compile-time enforcement for different PPM formats; I think it's a lot better than matching on some enum for the format, because now, a `Ppm<PpmBinary>` cannot just display itself, because it's raw bytes, it makes no sense.
+
+But wait, there's a big problem: I just need the identity of `T`, I don't actually need the `T` itself. This is where I add `PhantomData<T>`:
+
+```rust
+use std::marker::PhantomData;
+
+struct Ppm<T: PpmFormat> {
+    _marker: PhantomData<T>,
+    ...
+}
+
+impl<T: PpmFormat> Ppm<T> {
+    fn new(...) -> Self {
+        Self {
+            _marker: PhantomData,
+            ...
+        }
+    }
+}
+```
+
+If I had to come up with a more self-evident name for this use case, I would've chosen `GenericMarker<T>`.
+
+##### Remember this!
+
+Use `PhantomData<T>` when you want a generic marker to do custom compile-time logic in your object without actually owning a value of `T`.
+
+#### Covariancy
+
+The other use case for `PhantomData<T>` is to denote covariancy, which is a concept where $$\prime A \sqsubseteq \prime B$$, meaning that if `'a` lives at least as long as `'b`, `'a` may be used anywhere that `'b` is. Let's start with a simple example:
+
+```rust
+// Both `x` and `y` must last at least the same lifetime.
+fn longest<'t>(x: &'t str, y: &'t str) -> &'t str {
+    if x.len() > y.len() { x } else { y }
+}
+
+fn main() {
+    // '1
+    let outer = String::from("hello");
+    // '1
+    let chosen;
+    { // '2
+        // '2
+        let inner = String::from("hi");
+        chosen = longest(outer.as_str(), /* Uh oh! -> */ inner.as_str());
+    }
+    // '1
+    println!("{}", chosen);
+}
+```
+
+`longest` expects `outer` and `chosen` to have at least the same lifetime. I'll give you a minute to spot exactly what line causes the problem.
+
+Ready? There's actually two places that cause a problem, so I will go over the simpler one first.
+
+If you remove the `println!`, the program will compile because we don't actually ever end up using `chosen`, and the compiler is smart enough to know that since you didn't use it, it won't complain even though the lifetimes are indeed messed up, but that's not really useful for us, because we want to actually use the value.
+
+The real place that causes the problem is assigning `chosen`. Because its lifetime is `'2`, it exists for less than `'1`, which breaks our `longest` contract which states that they must be at least the same.
+
+Now if you've been a careful reader, you'll notice I've not said "the same lifetime", instead, "at least the same lifetime". That's because there is a special lifetime called `'static`, which states that the reference will live *until* the end of the lifetime of the running program. Many novices misunderstand `'static` to mean "lives the entire program" but that is only one way you can use it:
+
+```rust
+static NUM: usize = 67; // Lives the entire program
+
+fn main() {
+    let my_str = "hello!"; // Lives in memory the rest of the program
+                           // but will go out of scope just like all
+                           // other variables.
+}
+```
+
+Now when I say "at least the same lifetime", that is because `'static` can be temporarily downgraded to the lifetime of the other value:
+
+```rust
+static NUM: usize = 67;
+
+fn downgrade<'a>(a: &'a usize) { ... }
+
+fn main() {
+    let my_str = "hello!";
+    {
+        _ = downgrade(&NUM);
+    }
+}
+```
+
+Even though `downgrade` does not specify a `'static` lifetime, `NUM` will downgrade into `'a`.
+
+Now wayyyy back to `PhantomData<T>`. It supports an optional lifetime, so you could have `PhantomData<&'a T>`. Because Rust only allows lifetimes on references, there's a problem that becomes especially apparent when using *pointers* in FFI:
+
+```rust
+struct Range<T> {
+    lower: *const T,
+    upper: *const T,
+}
+```
+
+Because pointers have no lifetimes (you can't do `*'a const T`), we can't assure the compiler that `lower` and `upper` will even live at least the same time! Now we can use `PhantomData<&'a T>`:
+
+```rust
+struct Range<'a, T: 'a> {
+    lower: *const T,
+    upper: *const T,
+    _lifetime: PhantomData<&'a T>,
+}
+```
+
+Two things you should notice:
+
+1. We added a lifetime `'a` and made `T: 'a`, telling the compiler that `T` must live at least as long as `'a`. This is our contract.
+2. We added `PhantomData<&'a T>`, which tells the compiler, "yes, `T` will live at least as long as `'a`". This is our "implementation".
+
+This is mainly used in FFI when the code you are wrapping has the same contract of lifetimes but cannot be automatically detected by the Rust compiler.
 
 ---
 
