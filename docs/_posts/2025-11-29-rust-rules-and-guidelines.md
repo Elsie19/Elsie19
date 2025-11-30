@@ -549,6 +549,8 @@ let my_strointer = *my_stref; // Nope, not allowed.
 let my_second_strointer = *my_stref; // Ditto.
 ```
 
+<!-- I could totally do a "whoops I just dropped my object for my magnum rust code" -->
+
 But back to our copyable pointer object. Now we have successfully copied the pointer and the object, so let's throw a wrench in this: I just [dropped](https://doc.rust-lang.org/std/ops/trait.Drop.html#tymethod.drop) `my_obj` out of scope, it no longer exists:
 
 ```mermaid
