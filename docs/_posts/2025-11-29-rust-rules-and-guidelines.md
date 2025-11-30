@@ -164,7 +164,23 @@ Because we pass in `&String` into a function that expects `&str`, and `String` i
 
 #### Smart pointers
 
-`todo!();`
+This is very simple. If we have a smart pointer `Wrap<T>` that can contain any `T`, we naturally want a way to interact with that `T` as if `Wrap` wasn't even there, so we would implement `Deref` for it:
+
+```rust
+struct Wrap<T> {
+    inner: T,
+}
+
+impl<T> Deref for Wrap<T> {
+    type Target = T;
+
+    fn deref(&self) -> &Self::Target {
+        &self.inner
+    }
+}
+```
+
+This is how `Box<T>` works in fact.
 
 ### Remember this!
 
@@ -806,6 +822,16 @@ Ready? There's actually two places that cause a problem, so I will go over the s
 If you remove the `println!`, the program will compile because we don't actually ever end up using `chosen`, and the compiler is smart enough to know that since you didn't use it, it won't complain even though the lifetimes are indeed messed up, but that's not really useful for us, because we want to actually use the value.
 
 The real place that causes the problem is assigning `chosen`. Because its lifetime is `'2`, it exists for less than `'1`, which breaks our `longest` contract which states that they must be at least the same.
+
+As an aside, there is a case that is so common that Rust actually handles the lifetimes for you, and that's when there is exactly one reference in the parameter and exactly one returned reference:
+
+```rust
+fn dummy(item: &str) -> &str {
+    item
+}
+```
+
+We don't have to annotate the references with a lifetime because there is literally only one possible lifetime (besides `'static`), so it will *elide* it.
 
 Now if you've been a careful reader, you'll notice I've not said "the same lifetime", instead, "at least the same lifetime". That's because there is a special lifetime called `'static`, which states that the reference will live *until* the end of the lifetime of the running program. Many novices misunderstand `'static` to mean "lives the entire program" but that is only one way you can use it:
 
