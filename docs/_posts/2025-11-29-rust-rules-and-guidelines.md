@@ -438,13 +438,13 @@ let my_obj2 = my_obj; // Copied here.
 
 ```mermaid
 flowchart LR
-    A["my_obj (ptr → Heap)"]
+    A["`my_obj` (ptr → Heap)"]
     H["Heap Data"]
-    B["my_obj2 (ptr → Heap)"]
+    B["`my_obj2` (ptr → Heap)"]
 
     A -->|"copied"| B
-    A -->|"*ptr (0x7fff6850ccdc)"| H
-    B -->|"*ptr (0x7ffd3ae29cbc)"| H
+    A -->|"*ptr (`0x7fff6850ccdc`)"| H
+    B -->|"*ptr (`0x7ffd3ae29cbc`)"| H
 
     linkStyle default stroke: white
 ```
@@ -463,12 +463,12 @@ But back to our copyable pointer object. Now we have successfully copied the poi
 
 ```mermaid
 flowchart LR
-    A["my_obj (ptr ↛ Heap)"]
+    A["`my_obj` (ptr ↛ Heap)"]
     H["Heap Data"]
-    B["my_obj2 (ptr → Heap)"]
+    B["`my_obj2` (ptr → Heap)"]
 
-    A -->|"*ptr (0x7fff6850ccdc)"| H
-    B -->|"*ptr (0x7ffd3ae29cbc)"| H
+    A -->|"*ptr (`0x7fff6850ccdc`)"| H
+    B -->|"*ptr (`0x7ffd3ae29cbc`)"| H
 
     style A fill:#FF0000,color:#000000,stroke:#444
     style H fill:#FF0000,color:#000000,stroke:#444
