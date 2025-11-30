@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Rust Rules & Guidelines
-subtitle: A compilation of things that Rust beginners should know, without treating them like they're stupid
+subtitle: A compilation of things that Rust novices should know, without treating them like they're stupid
 tags: [rust]
 comments: true
-mathjax: false
+mathjax: true
 author: Elsie
 ---
 
@@ -19,6 +19,9 @@ author: Elsie
 # Table of Contents
 
 - [Reference values](#reference-values)
+  - [`T` <-> `&T` with `Deref<Target = T>`](#t-t-with-dereftarget-t)
+    - [Heap -> Referenced objects](#heap-referenced-objects)
+    - [Smart pointers](#smart-pointers)
   - [Remember this!](#remember-this)
     - [Parameters](#parameters)
     - [Return values](#return-values)
@@ -35,10 +38,15 @@ author: Elsie
     - [`Copy`able values](#copyable-values)
     - [Owned values created in the function](#owned-values-created-in-the-function)
     - [Owned values transferring ownership](#owned-values-transferring-ownership)
+  - [When can I use references in structs/enums?](#when-can-i-use-references-in-structsenums)
+
+I've been programming in Rust for a while, and I have helped a lot of people learn it as well, but most novices fall into the same couple traps. These usually come from a superficial level of the trait system, the borrow checker, etc. I hope to explain the *how* behind these concepts and patterns that are so deeply integrated into every piece of Rust code you'll ever see.
+
+<!-- Add variants, covariants, and contravariants -->
 
 ## Reference values
 
-As a general rule, owned values should be stored, and references should be accepted as parameters[^1] and returned.
+As a general rule, values that are going to be owned should be passed by value, and references should be accepted as parameters[^1] and returned.
 
 Instead of:
 
@@ -88,14 +96,83 @@ impl Message {
 }
 ```
 
+### `T` <-> `&T` with `Deref<Target = T>`
+
+`Deref` is a special trait that has some sweeping implications on the type system. The trait signature is as follows:
+
+```rust
+pub trait Deref {
+    type Target: ?Sized;
+
+    // Required method
+    fn deref(&self) -> &Self::Target;
+}
+```
+
+And it's pretty simple: it takes `&self` and returns `&Target`, but what really does this mean and how is it used?
+
+There are two instances where `Deref` is used:
+
+1. Heap -> Referenced objects.
+2. Smart pointers.
+
+#### Heap -> Referenced objects
+
+Some heap-allocated types have a referenced (stack) variant, such as:
+
+* `String` -> `&str`
+* `PathBuf` -> `&Path`
+* `Vec<T>` -> `&[T]`
+
+In mathematical terms, we could represent it as $O \sqsubseteq R$ where `O` is the owned variant of the `R`eference, meaning that any `O` can be used in contexts where `R` is expected.
+
+In programming terms, this usually is implemented by having the underlying type in an owned type, such as:
+
+```rust
+struct MyGeneric<T> {
+    it: T,
+}
+```
+
+Then we could implement `Deref`:
+
+```rust
+impl<T> Deref for MyGeneric<T> {
+    type Target = T;
+
+    fn deref(&self) -> &Self::Target {
+        &self.it
+    }
+}
+```
+
+Signifying that `MyGeneric<T>` can be used in all cases where `T` is.
+
+This is how `String` -> `&str` works, sort of, because you see, there's a little more to it. The page on [type coercions](https://doc.rust-lang.org/reference/type-coercions.html#r-coerce.types.deref) specify that trivial conversions can be done when:
+
+Given a `&T`, where `T` implements `Deref<Target = U>`, it can trivially convert to `&U`, which is why you can do:
+
+```rust
+fn foo(bar: &str) {}
+
+let my_string = String::from("hello!");
+foo(&my_string);
+```
+
+Because we pass in `&String` into a function that expects `&str`, and `String` implements [`Deref<Target = str>`](https://doc.rust-lang.org/std/string/struct.String.html#impl-Deref-for-String)!
+
+#### Smart pointers
+
+`todo!();`
+
 ### Remember this!
 
 #### Parameters
 
 The most important thing to take away from this is to ask yourself these questions:
 
-1. Does my function *need* to take an owned value?
-2. What extra value does my function gain by taking an owned value versus a referenced value?
+1. Does my function *need* to take input passed by value?
+2. What extra value does my function gain by taking passed by values versus a referenced value?
 
 If your answers are "not really" and "none", you should use a reference value instead.
 
@@ -602,6 +679,16 @@ fn main() {
         .build();
 }
 ```
+
+### When can I use references in structs/enums?
+
+You've probably come across something like this in the rust docs:
+
+```rust
+pub struct SomeStruct<'a> { /* private fields */ }
+```
+
+And wondered what that `'a` means. Well I'll tell you later because I gotta catch a flight lol.
 
 ---
 
