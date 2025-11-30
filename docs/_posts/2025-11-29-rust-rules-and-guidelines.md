@@ -831,7 +831,7 @@ fn dummy(item: &str) -> &str {
 }
 ```
 
-We don't have to annotate the references with a lifetime because there is literally only one possible lifetime (besides `'static`), so it will *elide* it. This is actually how we can return references from `&self`, because the compile automatically inserts a lifetime that binds the returned reference to the lifetime of the object itself, so the following are equivalent:
+We don't have to annotate the references with a lifetime because there is literally only one possible lifetime (besides `'static`), so it will *elide* it. This is actually how we can return references from `&self`, because the compiler automatically inserts a lifetime that binds the returned reference to the lifetime of the object itself, so the following are equivalent:
 
 ```rust
 struct Foo(String);
