@@ -16,12 +16,6 @@ author: Elsie
     mermaid.initialize({ startOnLoad: true });
 </script>
 
-# Random Rust Rules
-
-This should serve as a quick and easy to reference guide for Rust beginners.
-
-I'll expand and clarify these rules as needed.
-
 # Table of Contents
 
 - [Reference values](#reference-values)
