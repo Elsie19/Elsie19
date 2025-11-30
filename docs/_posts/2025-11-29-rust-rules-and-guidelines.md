@@ -110,7 +110,7 @@ If your answers are "no" and "no", return a reference.
 
 If your answers are "no" and "yes", return the value without a reference.
 
-If your answer is "wtf do you mean 'can it even return the owned value'?", [skip here](#Ownership).
+If your answer is "wtf do you mean 'can it even return the owned value'?", [skip here](#ownership).
 
 ## Impl/Generic parameters
 
