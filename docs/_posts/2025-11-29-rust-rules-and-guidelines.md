@@ -796,11 +796,11 @@ Use `PhantomData<T>` when you want a generic marker to do custom compile-time lo
 
 #### Covariancy
 
-The other use case for `PhantomData<T>` is to denote covariancy, which is a concept where $$\prime A \sqsubseteq \prime B$$, meaning that if `'a` lives at least as long as `'b`, `'a` may be used anywhere that `'b` is. Let's start with a simple example:
+The other use case for `PhantomData<T>` is to denote covariancy, which is a concept where $$\prime A \sqsubseteq \prime B$$, meaning that if `'a` lives at least as long as `'b`, `'a` may be used anywhere that `'b` is. This is identical to the owned vs reference types comparison [I showed earlier](#heap-referenced-objects), but instead of types, it's lifetimes. Let's start with a simple example:
 
 ```rust
 // Both `x` and `y` must last at least the same lifetime.
-fn longest<'t>(x: &'t str, y: &'t str) -> &'t str {
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     if x.len() > y.len() { x } else { y }
 }
 
@@ -886,7 +886,7 @@ fn main() {
 
 Even though `downgrade` does not specify a `'static` lifetime, `NUM` will downgrade into `'a`.
 
-Now wayyyy back to `PhantomData<T>`. It supports an optional lifetime, so you could have `PhantomData<&'a T>`. Because Rust only allows lifetimes on references, there's a problem that becomes especially apparent when using *pointers* in FFI:
+Now wayyyy back to `PhantomData<T>`. It can have an optional lifetime, so you could have `PhantomData<&'a T>`. Because Rust only allows lifetimes on references, there's a problem that becomes especially apparent when using *pointers* in FFI:
 
 ```rust
 struct Range<T> {
@@ -905,10 +905,11 @@ struct Range<'a, T: 'a> {
 }
 ```
 
-Two things you should notice:
+Three things you should notice:
 
 1. We added a lifetime `'a` and made `T: 'a`, telling the compiler that `T` must live at least as long as `'a`. This is our contract.
 2. We added `PhantomData<&'a T>`, which tells the compiler, "yes, the `T` you give me will live at least as long as `'a`". This is our "implementation".
+3. Because of this assurance by `_lifetime`, Rust knows that the same is true for all `T`s in the struct, even though we can't explicitly annotate them.
 
 This is mainly used in FFI when the code you are wrapping has the same contract of lifetimes but cannot be automatically detected by the Rust compiler.
 
