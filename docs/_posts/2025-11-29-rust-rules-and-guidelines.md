@@ -18,30 +18,8 @@ author: Elsie
 
 # Table of Contents
 
-- [Reference values](#reference-values)
-  - [`T` <-> `&T` with `Deref<Target = T>`](#t-t-with-dereftarget-t)
-    - [Heap -> Referenced objects](#heap-referenced-objects)
-    - [Smart pointers](#smart-pointers)
-  - [Remember this!](#remember-this)
-    - [Parameters](#parameters)
-    - [Return values](#return-values)
-- [Impl/Generic parameters](#implgeneric-parameters)
-  - [Remember this!](#remember-this)
-- [Unconstrained generics](#unconstrained-generics)
-  - [Inherent Identity](#inherent-identity)
-  - [Four-sided Circles](#four-sided-circles)
-  - [Inedible Food](#inedible-food)
-  - [Rainbow Cat](#rainbow-cat)
-  - [Remember this!](#remember-this)
-- [Ownership](#ownership)
-  - [When can I return owned values?](#when-can-i-return-owned-values)
-    - [`Copy`able values](#copyable-values)
-    - [Owned values created in the function](#owned-values-created-in-the-function)
-    - [Owned values transferring ownership](#owned-values-transferring-ownership)
-  - [`PhantomData<T>`](#phantomdatat)
-    - [Identifying Generics](#identifying-generics)
-      - [Remember this!](#remember-this)
-    - [Covariancy](#covariancy)
+* auto-gen TOC:
+{:toc}
 
 I've been programming in Rust for a while, and I have helped a lot of people learn it as well, but most novices fall into the same couple traps. These usually come from a superficial level of the trait system, the borrow checker, etc. I hope to explain the *how* behind these concepts and patterns that are so deeply integrated into every piece of Rust code you'll ever see.
 
