@@ -874,17 +874,19 @@ Now when I say "at least the same lifetime", that is because `'static` can be te
 ```rust
 static NUM: usize = 67;
 
-fn downgrade<'a>(a: &'a usize) { ... }
+fn downgrade_num<'a>(a: &'a usize) { ... }
+fn downgrade_str<'a>(a: &'a str)   { ... }
 
 fn main() {
-    let my_str = "hello!";
+    let my_str: &'static str = "hello!";
     {
-        _ = downgrade(&NUM);
+        downgrade_num(&NUM    /* 'static -> 'a */);
+        downgrade_str(&my_str /* 'static -> 'a */);
     }
 }
 ```
 
-Even though `downgrade` does not specify a `'static` lifetime, `NUM` will downgrade into `'a`.
+Even though `downgrade_num`/`downgrade_str` do not specify `'static` lifetimes, `NUM` and `my_str` will downgrade into `'a`.
 
 Now wayyyy back to `PhantomData<T>`. It can have an optional lifetime, so you could have `PhantomData<&'a T>`. Because Rust only allows lifetimes on references, there's a problem that becomes especially apparent when using *pointers* in FFI:
 
