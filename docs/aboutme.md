@@ -14,13 +14,10 @@ subtitle: Everything you might need to know
 
   .ipa-script {
     font-family: "Noto Serif", serif;
-    text-align: center;
   }
-
-  span { text-align: center; }
 </style>
 
-<span class="ipa-script">[ɪ̈ˈlɪz.ɪ̈bɪ̈θ]</span>
+<center class="ipa-script">[ɪ̈ˈlɪz.ɪ̈bɪ̈θ]</center>
 
 Heyyy! I'm Elisabeth (Elsie) and this is my blog!
 
