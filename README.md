@@ -1,6 +1,6 @@
 <div align="center">
 
-$${\Huge \color{#D79FC7} \verb|Elisabeth| \space \color{#56565E} \verb|Wenger-Stickel|}$$
+<img src="name.svg">
 
 <img src="top.svg">
 
