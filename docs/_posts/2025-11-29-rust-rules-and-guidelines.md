@@ -242,7 +242,7 @@ By using generics over concrete types, you are making clear your API and what fe
 
 ## Unconstrained generics
 
-Often, you might find yourself wanting to add generic bounds on the struct/enum itself. **NEVER EVER DO THIS** (*except in a couple cases that I will show below*) **!** Constraining generics onto structs/enums force you to duplicate it everywhere you use it (even when you don't need that bound (*more below*))!
+Often, you might find yourself wanting to add generic bounds on the struct/enum itself. **NEVER EVER DO THIS** (*except in a couple cases that I will show below*)**!** Constraining generics onto structs/enums force you to duplicate it everywhere you use it (even when you don't need that bound (*more below*))!
 
 Let's try to build a silly example:
 
