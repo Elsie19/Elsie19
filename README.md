@@ -1,14 +1,11 @@
 <div align="center">
 
-## **\~ Elsie \~**
+$${\Large \color{#D79FC7} \verb|Elisabeth| \space \color{#56565E} \verb|Wenger-Stickel|}$$
 
-[![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat-square&logo=linux&logoColor=white&color=D79FC7)](https://ubuntu.com/)
-<!---[![](https://img.shields.io/badge/Programming%20Language-Bash-informational?style=flat-square&logo=gnu&logoColor=white&color=D4A207)](https://www.gnu.org/software/bash/)-->
-[![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat-square&logo=vim&logoColor=white&color=D79FC7)](https://neovim.io/)
+<img src="top.svg">
 
-![Alt text](https://komarev.com/ghpvc/?username=Elsie19&style=for-the-badge&color=D79FC7)
-  
- ━━━━━━ 🌸 ━━━━━━ 
+━━━━━━ 🌸 ━━━━━━
+
 ### **Projects**
 | Name | Category | Description |
 |------|----------|-------------|
@@ -29,38 +26,5 @@
 | [ohmyZSH](https://ohmyz.sh/) | Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration |
 | [sddm+eucalyptus drop](https://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop) | So extremely sweet your pancreas will have difficulties digesting its awesomeness |
 
-━━━━━━ 🌸 ━━━━━━
+<img src="bottom.svg">
 </div>
-
-# To play to 2048
-
-**Game in progress. This is a public game of 2048. Anyone can play.**
-
-**It's your turn, click on a button below the board!**
-
-<!-- 2048GameBoard -->
-<img src="https://github.com/Elsie19/Elsie19/blob/main/Data/gameboard.png" width="500"/>
-<!-- 2048GameBoard -->
-
-<!-- 2048GameActions -->
-<a href="https://github.com/Elsie19/Elsie19/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else."> <img src="Assets/slideUp.png"/> </a> <a href="https://github.com/Elsie19/Elsie19/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else."> <img src="Assets/slideDown.png"/> </a> <a href="https://github.com/Elsie19/Elsie19/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else."> <img src="Assets/slideLeft.png"/> </a> <a href="https://github.com/Elsie19/Elsie19/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else."> <img src="Assets/slideRight.png"/> </a>
-<!-- 2048GameActions -->
-
-## Leaderboard
-
-<!-- 2048Ranking -->
-| Players | Actions |
-|---------------|:---------:|
-| [@Elsie19](https://github.com/Elsie19) | 7 |
-| [@hwittenborn](https://github.com/hwittenborn) | 4 |
-| [@IsakTheHacker](https://github.com/IsakTheHacker) | 3 |
-| [@oklopfer](https://github.com/oklopfer) | 3 |
-| [@Slackadays](https://github.com/Slackadays) | 3 |
-| [@Bglaws](https://github.com/Bglaws) | 2 |
-| [@julianchong00](https://github.com/julianchong00) | 2 |
-| [@TheRealOne78](https://github.com/TheRealOne78) | 2 |
-| [@Hepno](https://github.com/Hepno) | 2 |
-| [@Diegiwg](https://github.com/Diegiwg) | 2 |
-<!-- 2048Ranking -->
-
-Do you want to make your own? Check out the [Darkempire78's readme 2048 template](https://github.com/Darkempire78/Readme-2048)!
