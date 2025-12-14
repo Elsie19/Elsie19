@@ -5,19 +5,13 @@ subtitle: Everything you might need to know
 ---
 
 <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap">
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
 
 <style>
   .dancing-script {
     font-family: "Dancing Script", cursive;
   }
-
-  .ipa-script {
-    font-family: "Noto Serif", serif;
-  }
 </style>
-
-<center class="ipa-script">[ɪ̈ˈlɪz.ɪ̈bɪ̈θ]</center>
 
 Hey, hola, χαίρετε, ᚹᛁᛚᚳᚢᛗᛖ! I'm Elisabeth (Elsie) and this is my blog!
 
