@@ -5,7 +5,7 @@ subtitle: Everything you might need to know
 ---
 
 <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+      href="https://fonts.cdnfonts.com/css/dancing-script">
 
 <style>
   .dancing-script {
