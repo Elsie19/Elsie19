@@ -1,17 +1,26 @@
 ---
 layout: page
 title: About me
-subtitle: [ɪ̈ˈlɪz.ɪ̈bɪ̈θ]
+subtitle: Everything you might need to know
 ---
 
 <link rel="stylesheet"
-      href="https://fonts.cdnfonts.com/css/dancing-script">
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap">
 
 <style>
   .dancing-script {
     font-family: "Dancing Script", cursive;
   }
+
+  .ipa-script {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+  }
+
+  span { text-align: center; }
 </style>
+
+<span class="ipa-script">[ɪ̈ˈlɪz.ɪ̈bɪ̈θ]</span>
 
 Heyyy! I'm Elisabeth (Elsie) and this is my blog!
 
