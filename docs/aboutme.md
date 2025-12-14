@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Everything you might need to know
+subtitle: [ɪ̈ˈlɪz.ɪ̈bɪ̈θ]
 ---
 
 <link rel="stylesheet"
