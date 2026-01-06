@@ -216,7 +216,7 @@ timeline
 
 ### May
 
-#### Millard asks Lincoln for a Favor (May 19th, 1863)
+#### Millard asks Lincoln for a Favor (May 16th, 1863)
 
 {% include millard/millard-asks-lincoln-1863.md %}
 
