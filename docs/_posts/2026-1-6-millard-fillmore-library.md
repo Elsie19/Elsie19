@@ -25,7 +25,7 @@ I *really* like Millard Fillmore, and I think it's a shame that people have to g
 
 Please don't cite this page yourself, I will provide citations at the bottom for you go get this information from yourselves.
 
-I will at some points add my own annotations linking to other websites that may explain what he was talking about.
+I will at some points add my own annotations linking to other websites that may explain what he was talking about. I will also put stars on items that I believe are important to know.
 
 # Timeline
 
@@ -169,6 +169,10 @@ timeline
 #### Information relating to the Removal of Fort Polk (August 2nd, 1850)
 
 {% include millard/fort-polk-august-2-1850.md %}
+
+#### Compromise of Texas ⭐ (August 6th, 1850)
+
+{% include millard/compromise-of-1850.md %}
 
 ### December
 
