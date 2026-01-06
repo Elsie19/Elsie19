@@ -214,6 +214,22 @@ timeline
 
 {% include millard/cost-of-mail-steamers-september-12-1850.md %}
 
+#### Information concerning Nomination of John Howard Payne as Consul to Tunis (September 16th, 1850)
+
+{% include millard/nomination-september-16-1850.md %}
+
+#### Forwarding Zachary Taylors Family's Wishes to move Remains (September 23rd, 1850)
+
+{% include millard/zachary-taylor-september-23-1850.md %}
+
+#### Secretary of State Response forwarded to Senate (September 27th, 1850)
+
+{% include millard/response-september-27-1850.md %}
+
+#### Acceptance of Edward C. Anderson's Resignation (September 28th, 1850)
+
+{% include millard/acceptance-september-28-1850.md %}
+
 ### December
 
 #### State of the Union Address
