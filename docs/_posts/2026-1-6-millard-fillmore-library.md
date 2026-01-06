@@ -334,7 +334,7 @@ timeline
 
 ### June
 
-#### 1856 Election Campaign Speeches (June, 1856)
+#### 1856 Election Campaign Speeches ⭐ (June, 1856)
 
 {% include millard/the-ovation-to-fillmore.md %}
 
