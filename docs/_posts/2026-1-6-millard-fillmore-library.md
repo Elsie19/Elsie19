@@ -252,6 +252,10 @@ timeline
 
 {% include millard/lincoln-tempts-tyranny.md %}
 
+#### Abraham Lincoln's Election caused the War (March 12th, 1862)
+
+{% include millard/lincoln-caused-war.md %}
+
 ## 1863
 
 ### May
