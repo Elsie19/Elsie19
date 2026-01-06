@@ -192,6 +192,20 @@ timeline
 
 {% include millard/brazos-santiago-august-24-1850.md %}
 
+#### Received Topographical Map of Gulf Coast (August 26th, 1850)
+
+{% include millard/got-map-august-26-1850.md %}
+
+### September
+
+#### Resignation of Edward C. Anderson (September 2nd, 1850)
+
+{% include millard/resignation-of-edward-september-2-1850.md %}
+
+#### Letter concerning Treaties between the U.S. and China and the Ottoman Porte (September 9th, 1850)
+
+{% include millard/ottoman-porte-september-9-1850.md %}
+
 ### December
 
 #### State of the Union Address
