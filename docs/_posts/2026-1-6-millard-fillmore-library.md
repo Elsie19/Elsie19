@@ -224,7 +224,7 @@ timeline
 
 ### June
 
-#### Ackknowledgment of the Gift of "a beautiful picture of 'Ancient Jerusalem'" (June 17th, 1852)
+#### Acknowledgment of the Gift of "a beautiful picture of 'Ancient Jerusalem'" (June 17th, 1852)
 
 {% include millard/jerusalem.md %}
 
