@@ -222,6 +222,12 @@ timeline
 
 {% include millard/governor-gibbs-may-25-1852.md %}
 
+### June
+
+#### Ackknowledgment of the Gift of "a beautiful picture of 'Ancient Jerusalem'" (June 17th, 1852)
+
+{% include millard/jerusalem.md %}
+
 ### July
 
 #### "I would rather be right than be President" (July 23rd, 1852)
