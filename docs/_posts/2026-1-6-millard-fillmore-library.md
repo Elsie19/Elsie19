@@ -196,6 +196,12 @@ timeline
 
 ## 1851
 
+### May
+
+#### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
+
+{% include millard/raiload-line-1851.md %}
+
 ### December
 
 #### State of the Union Address
