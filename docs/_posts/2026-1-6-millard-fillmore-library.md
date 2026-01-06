@@ -278,6 +278,20 @@ timeline
 
 {% include millard/army-and-navy-ranks.md %}
 
+### February
+
+#### Possessory Rights of the British Hudsons Bay Company in Oregon (February 3rd, 1851)
+
+{% include millard/hudsons-bay-company.md %}
+
+#### On the Compensation of Freed Slaves from a Spanish Vessel (February 12th, 1851)
+
+{% include millard/spanish-slaves.md %}
+
+#### United States and Swiss Confederation General Convention (February 13th, 1851)
+
+{% include millard/swiss.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
