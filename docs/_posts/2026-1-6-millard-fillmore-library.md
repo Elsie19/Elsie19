@@ -152,13 +152,11 @@ timeline
 
 #### Requesting Knowledge about British Activities in "Tigre" (July 18th, 1850)
 
-{% millard/british-capture-of-tigre.md %}
+{% include millard/british-capture-of-tigre.md %}
 
 #### Extradition Treaty with Mexico (July 20th, 1850)
 
-{% millard/extradition-treaty-july-20-1850.md %}
-
-{% millard/british-capture-of-tigre.md %}
+{% include millard/extradition-treaty-july-20-1850.md %}
 
 ### December
 
