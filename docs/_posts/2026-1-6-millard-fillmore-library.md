@@ -242,6 +242,12 @@ timeline
 
 ## 1853
 
+### March
+
+#### Millard sends Thanks for a Book (March 3rd, 1853)
+
+{% include millard/last-day-in-office.md %}
+
 ## 1856
 
 ### September
