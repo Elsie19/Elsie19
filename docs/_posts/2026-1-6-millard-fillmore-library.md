@@ -210,6 +210,12 @@ timeline
 
 {% include millard/uncle-toms-cabin-april-8-1852.md %}
 
+### July
+
+#### "I would rather be right than be President" (July 23rd, 1852)
+
+{% include millard/I-would-rather-be-right-july-23-1852.md %}
+
 ### December
 
 #### State of the Union Address
