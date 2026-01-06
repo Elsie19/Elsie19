@@ -332,6 +332,12 @@ timeline
 
 ## 1856
 
+### June
+
+#### 1856 Election Campaign Speeches (June, 1856)
+
+{% include millard/the-ovation-to-millard.md %}
+
 ### September
 
 #### "You Can Not Reason With Fanaticism" (September 12th, 1856)
@@ -371,3 +377,4 @@ timeline
 * <https://www.gutenberg.org/cache/epub/5021/pg5021-images.html>
 * <https://www.gutenberg.org/files/10951/10951-h/10951-h.htm#con3>
 * <https://www.shapell.org/>
+* <https://archive.org/details/wsb17f28_images/wsb17f28/mode/2up>
