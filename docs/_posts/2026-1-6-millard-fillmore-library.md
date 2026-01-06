@@ -206,6 +206,14 @@ timeline
 
 {% include millard/ottoman-porte-september-9-1850.md %}
 
+#### The Constitution of New Mexico (September 9th, 1850)
+
+{% include millard/constitution-of-new-mexico-september-9-1850.md %}
+
+#### Cost of Mail Steamers now in Service (September 12th, 1850)
+
+{% include millard/cost-of-mail-steamers-september-12-1850.md %}
+
 ### December
 
 #### State of the Union Address
