@@ -108,9 +108,43 @@ timeline
         1874 : March 8. Died at his home in Buffalo.
 ```
 
-# Letters
+# Letters & Speeches
 
 ## 1850
+
+### July
+
+#### Department of State to Millard Fillmore concerning Death of Zachary Taylor (July 9th, 1850)
+
+{% include millard/department-of-state-to-millard-july-9-1850.md %}
+
+#### Reply of Mr. Fillmore (July 9th, 1850)
+
+{% include millard/millard-response-july-9-1850.md %}
+
+#### Communication to the Senate from Mr. Fillmore (July 10th, 1850)
+
+{% include millard/millard-to-senate-july-10-1850.md %}
+
+#### Announcement to Congress (July 10th, 1850)
+
+{% include millard/announcement-to-congress-july-10-1850.md %}
+
+#### Order of the President (July 10th, 1850)
+
+{% include millard/order-of-the-president-july-10-1850.md %}
+
+#### Instructions to Senate and House (July 10th, 1850)
+
+{% include millard/special-message-july-10-1850.md %}
+
+#### Ratification of Treaty between United States and Peru (July 15th, 1850)
+
+{% include millard/peru-treaty-july-15-1850.md %}
+
+#### Report from Secretary of War (July 17th, 1850)
+
+{% include millard/report-secretary-war-july-17-1850.md %}
 
 ### December
 
@@ -141,3 +175,4 @@ timeline
 #### Sources
 * <https://archive.org/details/guide-to-microfilm-fillmore-papers-rotated-watermark/page/18/mode/2up>
 * <https://www.gutenberg.org/cache/epub/5021/pg5021-images.html>
+* <https://www.gutenberg.org/files/10951/10951-h/10951-h.htm#con3>
