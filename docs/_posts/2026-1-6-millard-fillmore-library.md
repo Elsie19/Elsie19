@@ -166,6 +166,8 @@ timeline
 
 {% include millard/american-vessels-july-30-1850.md %}
 
+### August
+
 #### Information relating to the Removal of Fort Polk (August 2nd, 1850)
 
 {% include millard/fort-polk-august-2-1850.md %}
@@ -173,6 +175,14 @@ timeline
 #### Compromise of Texas ⭐ (August 6th, 1850)
 
 {% include millard/compromise-of-1850.md %}
+
+#### Clarifying Previous Letter (August 8th, 1850)
+
+{% include millard/clarifying-previous-letter-august-8-1850.md %}
+
+#### Indian Statistics (August 10th, 1850)
+
+{% include millard/indian-statistics-august-10-1850.md %}
 
 ### December
 
