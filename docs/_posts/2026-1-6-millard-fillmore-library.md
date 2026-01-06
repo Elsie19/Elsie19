@@ -210,6 +210,12 @@ timeline
 
 {% include millard/uncle-toms-cabin-april-8-1852.md %}
 
+### May
+
+#### Appointment to see Governor Gibbs (May 25th, 1852)
+
+{% include millard/governor-gibbs-may-25-1852.md %}
+
 ### July
 
 #### "I would rather be right than be President" (July 23rd, 1852)
