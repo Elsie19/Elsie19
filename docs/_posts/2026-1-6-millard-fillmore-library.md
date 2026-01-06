@@ -204,6 +204,12 @@ timeline
 
 ## 1852
 
+### April
+
+#### Perusing "Uncle Tom's Cabin" (April 8th, 1852)
+
+{% include millard/uncle-toms-cabin-april-8-1852.md %}
+
 ### December
 
 #### State of the Union Address
