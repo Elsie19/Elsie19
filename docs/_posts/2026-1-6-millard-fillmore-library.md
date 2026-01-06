@@ -270,6 +270,14 @@ timeline
 
 {% include millard/outsourced-lawyer.md %}
 
+#### Secretary of Navy on Recent Act abolishing Flogging (January 10th, 1851)
+
+{% include millard/flogging.md %}
+
+#### On the Reorganization of Ranks of Army and Navy (January 14th, 1851)
+
+{% include millard/army-and-navy-ranks.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
