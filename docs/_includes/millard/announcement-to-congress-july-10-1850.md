@@ -6,4 +6,4 @@ I have to perform the melancholy duty of announcing to you that it has pleased A
 
 Having announced to you, fellow-citizens, this most afflicting bereavement, and assuring you that it has penetrated no heart with deeper grief than mine, it remains for me to say that I propose this day at 12 o'clock, in the Hall of the House of Representatives, in the presence of both Houses of Congress, to take the oath prescribed by the Constitution, to enable me to enter on the execution of the office which this event has devolved on me.
 
-MILLARD FILLMORE.
+![MILLARD FILLMORE.]({{ "/assets/img/millard_signature.svg" | relative_url }})
