@@ -230,6 +230,12 @@ timeline
 
 {% include millard/acceptance-september-28-1850.md %}
 
+### November
+
+#### Proclamation suspending Previous Act on Prussian Vessels (November 1st, 1850)
+
+{% include millard/proclamation-november-1-1850.md %}
+
 ### December
 
 #### State of the Union Address
