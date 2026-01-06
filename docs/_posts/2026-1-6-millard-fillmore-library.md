@@ -42,3 +42,8 @@ I will at some points add my own annotations linking to other websites that may 
 {% include millard/state-of-the-union-1852.md %}
 
 # 1853
+
+---
+
+#### Sources
+* <https://www.gutenberg.org/cache/epub/5021/pg5021-images.html>
