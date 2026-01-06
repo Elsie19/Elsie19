@@ -1,4 +1,4 @@
-MILLARD FILLMORE,
+![MILLARD FILLMORE,]({{ "/assets/img/millard_signature.svg" | relative_url }})
 *President of the United States.*
 
 SIR: The melancholy and most painful duty devolves on us to announce to you that Zachary Taylor, late President of the United States, is no more. He died at the President's mansion this evening at half-past 10 o'clock.

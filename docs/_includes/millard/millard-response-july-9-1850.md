@@ -6,4 +6,4 @@ I shall avail myself of the earliest moment to communicate this sad intelligence
 
 I am, gentlemen, etc.,
 
-MILLARD FILLMORE.
+![MILLARD FILLMORE.]({{ "/assets/img/millard_signature.svg" | relative_url }})
