@@ -6,9 +6,9 @@ I have your favor of the 10th for which I am greatly obliged. It is a gratificat
 
 I cordially approve of your idea of writing the history of this country from the annexation of Texas to the close of the present war, God grant that it may close soon and that your life and strength may be spared to accomplish so great a work, and that you may be abundantly rewarded for your labors, in money and fame.
 
-You expressed a desire to see again the <u>Suppressed</u> portion of my annual Message in December 1852.  I had only the copy preserved in my scrap book, and concluded to have a few copies printed in <u>Confidence</u> as well to prevent its accidental loss, as to consult some friends about the propriety of publishing it.--  I have submitted it to Mr. Everett <u>only</u>, and he advises against ^its publication, for the same reasons that he advised to strike it out of the message, viz. for fear the \[...\] of the question of Slavery might do more harm than good.
+You expressed a desire to see again the <u>Suppressed</u> portion of my annual Message in December 1852.  I had only the copy preserved in my scrap book, and concluded to have a few copies printed in <u>Confidence</u> as well to prevent its accidental loss, as to consult some friends about the propriety of publishing it.--  I have submitted it to Mr. Everett <u>only</u>, and he advises against ^<sup>its</sup> publication, for the same reasons that he advised to strike it out of the message, viz. for fear the \[...\] of the question of Slavery might do more harm than good.
 
-I have therefore concluded for the present to withhold it, but I enclose you a copy as a friend, and would like to know ^how it strikes you now on a more deliberate perusal.
+I have therefore concluded for the present to withhold it, but I enclose you a copy as a friend, and would like to know ^<sup>how</sup> it strikes you now on a more deliberate perusal.
 
 I hope and trust that I shall have the pleasure of seeing you when you come to Buffalo & am happy to hear that that may be soon.
 
