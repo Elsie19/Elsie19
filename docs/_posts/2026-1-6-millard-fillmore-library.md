@@ -142,9 +142,23 @@ timeline
 
 {% include millard/peru-treaty-july-15-1850.md %}
 
-#### Report from Secretary of War (July 17th, 1850)
+#### Report to Secretary of War (July 17th, 1850)
 
 {% include millard/report-secretary-war-july-17-1850.md %}
+
+#### Requesting the Senate to be Furnished with Topographical Map of Gulf Coast (July 17th, 1850)
+
+{% include millard/topographical-report-july-17-1850.md %}
+
+#### Requesting Knowledge about British Activities in "Tigre" (July 18th, 1850)
+
+{% millard/british-capture-of-tigre.md %}
+
+#### Extradition Treaty with Mexico (July 20th, 1850)
+
+{% millard/extradition-treaty-july-20-1850.md %}
+
+{% millard/british-capture-of-tigre.md %}
 
 ### December
 
