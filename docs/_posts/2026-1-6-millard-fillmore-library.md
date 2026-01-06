@@ -23,7 +23,7 @@ author: Elsie
 
 I *really* like Millard Fillmore, and I think it's a shame that people have to go to bespoke websites to find anything written by him, so I want to make this as a document containing *anything* I can get my hands on about him!
 
-Please don't cite this page yourself, I will provide citations at the bottom for you go get this information from yourselves.
+Please don't cite this page yourself, I will provide citations at the bottom for you go get this information for yourselves.
 
 I will at some points add my own annotations linking to other websites that may explain what he was talking about. I will also put stars on items that I believe are important to know.
 
