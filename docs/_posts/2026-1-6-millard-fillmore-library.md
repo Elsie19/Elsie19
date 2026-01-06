@@ -236,6 +236,14 @@ timeline
 
 ## 1853
 
+## 1856
+
+### October
+
+#### Relief concerning the Soon End of the 1856 Election (October 29, 1856)
+
+{% include millard/1856-election-over.md %}
+
 ## 1863
 
 ### May
