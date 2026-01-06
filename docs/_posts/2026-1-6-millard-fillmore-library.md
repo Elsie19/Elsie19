@@ -238,7 +238,7 @@ timeline
 
 ### December
 
-#### State of the Union Address
+#### State of the Union Address (December 2nd, 1850)
 
 {% include millard/state-of-the-union-1850.md %}
 

@@ -1,9 +1,3 @@
-State of the Union Address
-<br>
-Millard Fillmore
-<br>
-December 2, 1850
-
 *Fellow-Citizens of the Senate and of the House of Representatives:*
 
 Being suddenly called in the midst of the last session of Congress by a painful dispensation of Divine Providence to the responsible station which I now hold, I contented myself with such communications to the Legislature as the exigency of the moment seemed to require. The country was shrouded in mourning for the loss of its venerable Chief Magistrate and all hearts were penetrated with grief. Neither the time nor the occasion appeared to require or to justify on my part any general expression of political opinions or any announcement of the principles which would govern me in the discharge of the duties to the performance of which I had been so unexpectedly called. I trust, therefore, that it may not be deemed inappropriate if I avail myself of this opportunity of the reassembling of Congress to make known my sentiments in a general manner in regard to the policy which ought to be pursued by the Government both in its intercourse with foreign nations and its management and administration of internal affairs.
