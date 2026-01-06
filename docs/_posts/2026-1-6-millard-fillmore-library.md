@@ -188,6 +188,10 @@ timeline
 
 {% include millard/indian-statistics-august-10-1850.md %}
 
+#### Delivering a Report concerning Brazos Santiago, Texas (August 24th, 1850)
+
+{% include millard/brazos-santiago-august-24-1850.md %}
+
 ### December
 
 #### State of the Union Address
