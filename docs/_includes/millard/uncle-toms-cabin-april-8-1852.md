@@ -1,6 +1,6 @@
 Washington City
 <br>
-April 8^th^ 1852.
+April 8<sup>th</sup> 1852.
 
 Mrs. L. M. Greeley
 
