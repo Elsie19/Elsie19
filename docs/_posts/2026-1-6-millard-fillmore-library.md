@@ -244,6 +244,14 @@ timeline
 
 {% include millard/1856-election-over.md %}
 
+## 1862
+
+### March
+
+#### Lincoln tempts Tyranny (March 3rd, 1862)
+
+{% include millard/lincoln-tempts-tyranny.md %}
+
 ## 1863
 
 ### May
