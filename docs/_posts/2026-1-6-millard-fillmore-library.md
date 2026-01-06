@@ -154,6 +154,10 @@ timeline
 
 {% include millard/british-capture-of-tigre.md %}
 
+#### Millard requests a New Black Hat (July 18th, 1850)
+
+{% include millard/new-black-hat-july-18-1850.md %}
+
 #### Extradition Treaty with Mexico (July 20th, 1850)
 
 {% include millard/extradition-treaty-july-20-1850.md %}
@@ -210,7 +214,8 @@ timeline
 
 ---
 
-#### Sources
+# Sources
 * <https://archive.org/details/guide-to-microfilm-fillmore-papers-rotated-watermark/page/18/mode/2up>
 * <https://www.gutenberg.org/cache/epub/5021/pg5021-images.html>
 * <https://www.gutenberg.org/files/10951/10951-h/10951-h.htm#con3>
+* <https://www.shapell.org/>
