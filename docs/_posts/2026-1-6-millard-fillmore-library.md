@@ -158,6 +158,18 @@ timeline
 
 {% include millard/extradition-treaty-july-20-1850.md %}
 
+#### Treaty concerning the Wyandott Tribe of Indians (July 23rd, 1850)
+
+{% include millard/indian-treaty-july-23-1850.md %}
+
+#### Requesting Knowledge concerning American Vessels stopped by Great Britain (July 30th, 1850)
+
+{% include millard/american-vessels-july-30-1850.md %}
+
+#### Information relating to the Removal of Fort Polk (August 2nd, 1850)
+
+{% include millard/fort-polk-august-2-1850.md %}
+
 ### December
 
 #### State of the Union Address
