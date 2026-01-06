@@ -246,6 +246,14 @@ timeline
 
 {% include millard/translation-of-union-1850.md %}
 
+#### Report from Secretary of State concerning Slave Trade (December 12th, 1850)
+
+{% include millard/slave-trade-1850.md %}
+
+#### Texas agrees to Deal concerning Borders (December 13th, 1850)
+
+{% include millard/texas-borders-1850.md %}
+
 ## 1851
 
 ### May
