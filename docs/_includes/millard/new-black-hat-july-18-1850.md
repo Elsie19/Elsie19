@@ -1,4 +1,5 @@
 Washington City
+<br>
 18 July 1850
 
 Gentlemen,
@@ -12,4 +13,5 @@ Very Resp'y \[sic\]\[e\]tc
 ![MILLARD FILLMORE]({{ "/assets/img/millard_signature.svg" | relative_url }})
 
 Messrs W.H. Beebee & Co.
+<br>
 New York,
