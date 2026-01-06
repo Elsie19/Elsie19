@@ -254,7 +254,21 @@ timeline
 
 {% include millard/texas-borders-1850.md %}
 
+#### Secretary of War inquiring about the Army being used to exercise Civil Functions in Emergencies (December 17th, 1850)
+
+{% include millard/army-in-emergencies-1850.md %}
+
+#### Forwarding Report concerning Hungarian Independence (December 30th, 1850)
+
+{% include millard/hungarian-1850.md %}
+
 ## 1851
+
+### January
+
+#### Paying Outsourced Lawyer (January 3rd, 1851)
+
+{% include millard/outsourced-lawyer.md %}
 
 ### May
 
