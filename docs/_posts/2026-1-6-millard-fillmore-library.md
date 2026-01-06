@@ -238,6 +238,12 @@ timeline
 
 ## 1856
 
+### September
+
+#### "You Can Not Reason With Fanaticism" (September 12th, 1856)
+
+{% include millard/can-not-reason-with-fanaticism.md %}
+
 ### October
 
 #### Relief concerning the Soon End of the 1856 Election (October 29, 1856)
