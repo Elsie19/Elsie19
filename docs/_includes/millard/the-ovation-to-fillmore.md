@@ -24,9 +24,9 @@ But this is not all, sir. We see a political party presenting candidates for the
 
 I tell you, my friends, that I feel deeply, and therefore I speak earnestly on this subject (*cries of "You're right!"*), for I feel that you were in danger. I am determined to make a clean breast of it. I will wash my hands of the consequences, whatever they may be; and I fell you that we are treading upon the brink of a volcano, that is liable at any moment to burst forth and overwhelm the nation. I might, by soft words, inspire delusive hopes, and thereby win votes. But I can never consent to be one thing to the North and another to the South. I should despise myself, if I could be guilty of such duplicity. For my conscience would exclaim, with a dramatic poet,
 
-> "Is there not some chosen curse,
-> Some hidden thunder in the stores of heaven,
-> Red with uncommon wrath, to blast the man
+> "Is there not some chosen curse,<br>
+> Some hidden thunder in the stores of heaven,<br>
+> Red with uncommon wrath, to blast the man<br>
 > Who owes his greatness to his country's ruin?"
 
 In the language of the lamented, but immortal Clay: "I had rather be right than be President!"
