@@ -242,6 +242,10 @@ timeline
 
 {% include millard/state-of-the-union-1850.md %}
 
+#### Requesting Translation of a Portion of the State of the Union to the Mexican Republic (December 9th, 1850)
+
+{% include millard/translation-of-union-1850.md %}
+
 ## 1851
 
 ### May
