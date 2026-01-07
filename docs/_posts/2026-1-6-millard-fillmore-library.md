@@ -218,6 +218,10 @@ timeline
 
 {% include millard/nomination-september-16-1850.md %}
 
+#### Fugitive Slave Act (September 18th, 1850)
+
+{% include millard/fugitive-slave-act.md %}
+
 #### Forwarding Zachary Taylors Family's Wishes to move Remains (September 23rd, 1850)
 
 {% include millard/zachary-taylor-september-23-1850.md %}
