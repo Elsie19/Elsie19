@@ -320,6 +320,10 @@ timeline
 
 {% include millard/additional-albion.md %}
 
+#### Proclamation concerning Prisoner Assault on U.S. Marshals (February 18th, 1851)
+
+{% include millard/prisoner-assault.md %}
+
 #### Answering Senate Questions concerning Prisoner arrested inside Courthouse (February 19th, 1851)
 
 {% include millard/fallout-of-fugitive-slave-act.md %}
