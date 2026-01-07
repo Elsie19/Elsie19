@@ -18,15 +18,13 @@ In witness whereof I have hereunto set my hand and seal at Buffalo this 8th day 
 
 MILLARD FILLMORE
 
-$$
-[
+```math
 \left.
 \begin{array}{l}
-\text{\textsc{Wm. Ketchum}} \\
-\text{\textsc{O. H. Marshall}}
+\text{Wm. Ketchum} \\
+\text{O. H. Marshall}
 \end{array}
-\right\} \text{\textsc{ss.}}
-]
-$$
+\right\} \text{ss.}
+```
 
 A codicil, Sept. 19, 1868, increases the annuity to his sisters from $400 to $600. A second codicil, Apr. 28, 1873, gives to Calvin T. Fillmore an annuity of $500 in lieu of the farm; and also provides "that after the payment of my funeral expenses, and all just debts and the bequest to the Orphan Asylum, that all my personal property as soon as conveniently may be, be invested in United States or New York State bonds, or bonds of the New York Central & Hudson River Railroad and out of the interest accruing thereon the said annuities shall first be paid, and all taxes and assessments upon my real and personal estate whether occupied or possessed by my said wife or not, and the balance I hereby bequeath to my said wife, and direct the same to be paid to her during her natural life"; thereafter, to be disposed of under the State laws.
