@@ -378,6 +378,12 @@ timeline
 
 {% include millard/raiload-line-1851.md %}
 
+### October
+
+#### Proclamation against Military Expeditions in Mexico (October 22nd, 1851)
+
+{% include millard/mexico-proclamation.md %}
+
 ### December
 
 #### State of the Union Address
