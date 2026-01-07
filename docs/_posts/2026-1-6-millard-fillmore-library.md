@@ -296,6 +296,18 @@ timeline
 
 {% include millard/swiss.md %}
 
+#### Requesting Information concerning Contract Alleged to have been made with Mexican Government (February 13th, 1851)
+
+{% include millard/contract-mexico.md %}
+
+#### Reports from Secretary of State and Treasury concerning captured British Ship *Albion* (February 13th, 1851)
+
+{% include millard/albion.md %}
+
+#### Additional Information concerning *Albion* (February 13th, 1851)
+
+{% include millard/albion-followup.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
