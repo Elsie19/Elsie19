@@ -4,7 +4,7 @@ title: Millard Fillmore Collection
 subtitle: A collection of Millard Fillmore's speeches and letters
 tags: [millard-fillmore]
 comments: true
-mathjax: false
+mathjax: true
 author: Elsie
 ---
 
@@ -492,6 +492,14 @@ timeline
 
 {% include millard/millard-asks-lincoln-1863.md %}
 
+## 1865
+
+### December
+
+#### Last Will and Testament (December 8th, 1865)
+
+{% include millard/last-will-and-testament.md %}
+
 ---
 
 # Sources
@@ -502,3 +510,4 @@ timeline
 * <https://archive.org/details/wsb17f28_images/wsb17f28/mode/2up>
 * <https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_9/31st_Congress/1st_Session/Chapter_60>
 * <https://archive.org/stream/FillmoreLetterToJapanEmperor/Letter_to_Japan_Emperor_nw.txt>
+* <https://books.google.com/books?id=x1cOAAAAIAAJ&pg=PA451&source=gbs_toc_r&cad=2#v=onepage&q&f=false>
