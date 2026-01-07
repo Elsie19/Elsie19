@@ -308,6 +308,18 @@ timeline
 
 {% include millard/albion-followup.md %}
 
+#### Transmitting New Information concerning Taxation by New Granada on US Citizens (February 15th, 1851)
+
+{% include millard/new-granada.md %}
+
+#### More Information concerning *Albion* (February 18th, 1851)
+
+{% include millard/additional-albion.md %}
+
+#### Answering Senate Questions concerning Prisoner arrested inside Courthouse (February 19th, 1851)
+
+{% include millard/fallout-of-fugitive-slave-act.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
