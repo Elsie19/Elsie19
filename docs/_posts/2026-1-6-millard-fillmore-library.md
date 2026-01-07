@@ -396,3 +396,4 @@ timeline
 * <https://www.gutenberg.org/files/10951/10951-h/10951-h.htm#con3>
 * <https://www.shapell.org/>
 * <https://archive.org/details/wsb17f28_images/wsb17f28/mode/2up>
+* <https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_9/31st_Congress/1st_Session/Chapter_60>
