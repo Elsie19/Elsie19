@@ -129,3 +129,5 @@ By that adjustment we have been rescued from the wide and boundless agitation th
 And now, fellow-citizens, I can not bring this communication to a close without invoking you to join me in humble and devout thanks to the Great Ruler of Nations for the multiplied blessings which He has graciously bestowed upon us. His hand, so often visible in our preservation, has stayed the pestilence, saved us from foreign wars and domestic disturbances, and scattered plenty throughout the land.
 
 Our liberties, religions and civil, have been maintained, the fountains of knowledge have all been kept open, and means of happiness widely spread and generally enjoyed greater than have fallen to the lot of any other nation. And while deeply penetrated with gratitude for the past, let us hope that His all-wise providence will so guide our counsels as that they shall result in giving satisfaction to our constituents, securing the peace of the country, and adding new strength to the united Government under which we live.
+
+![MILLARD FILLMORE.]({{ "/assets/img/millard_signature.svg" | relative_url }})
