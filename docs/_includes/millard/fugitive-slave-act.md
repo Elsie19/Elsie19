@@ -1,11 +1,3 @@
-<html>
-    <head>
-        <style>
-            p.small {font-variant-caps: small-caps;}
-        </style>
-    </head>
-<body>
-
 <p class="small">Chap.</p> LX.—*An Act to amend, and supplementary to, the Act entitled "An Act respecting Fugitives from Justice, and Persons escaping from the Service of their Masters," approved February twelfth, one thousand seven hundred and ninety-three.*
 
 *Be it enacted by the Senate and House of Representatives of the United States of America in congress assembled*, That the persons who have been, or may hereafter be, appointed commissioners, in virtue of any act of Congress, by the Circuit Courts of the United States, and who, in consequence of such appointment, are authorized to exercise the powers that any justice of the peace, or other magistrate of any of the United States, may exercise in respect to offenders for any crime or offence against the United States, by arresting, imprisoning, or bailing the same under and by virtue of the thirty-third section of the act of the twenty-fourth of September seventeen hundred and eighty-nine, entitled "An Act to establish the judicial courts of the United States," shall be, and are hereby, authorized and required to exercise and discharge all the powers and duties conferred by this act.
