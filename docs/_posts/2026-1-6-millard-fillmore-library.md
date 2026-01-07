@@ -354,6 +354,14 @@ timeline
 
 {% include millard/abductions.md %}
 
+#### Requesting Session of Congress to be convened (March 3rd, 1851)
+
+{% include millard/session-march-3-1851.md %}
+
+#### Renewing Nominations that died with Session (March 4th, 1851)
+
+{% include millard/appointments-march-4-1851.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
