@@ -36,8 +36,6 @@ Betera
     And then I tease my hair all high, baby
 </details>
 
-<br>
-
 \[Pre-Chorus\]
 
 <details>
@@ -52,8 +50,6 @@ Betera
     <summary>Tele ġē mē sind ġedōn</summary>
     Tell me you (y'all) are done
 </details>
-
-<br>
 
 \[Chorus\]
 
@@ -73,8 +69,6 @@ Betera
     <summary>Þæt sōþlīċe þū lōcast betera on mē, ġēa</summary>
     That truly you look better on me, yeah
 </details>
-
-<br>
 
 \[Verse 2\]
 
@@ -99,8 +93,6 @@ Betera
     So that is unfortunate for me, baby
 </details>
 
-<br>
-
 \[Pre-Chorus\]
 
 <details>
@@ -115,8 +107,6 @@ Betera
     <summary>Tele mē ġē sind ġedōn</summary>
     Tell me you (y'all) are done
 </details>
-
-<br>
 
 \[Chorus\]
 
@@ -137,8 +127,6 @@ Betera
     That truly you look better on me, yeah
 </details>
 
-<br>
-
 \[Post-Chorus\]
 
 <details>
@@ -149,8 +137,6 @@ Betera
     <summary>Oferstranglēaslīċ</summary>
     So effortlessly
 </details>
-
-<br>
 
 \[Bridge\]
 
@@ -179,8 +165,6 @@ Betera
     (B-b-b-b-b-b—, better, you)
 </details>
 
-<br>
-
 \[Chorus\]
 
 <details>
@@ -200,8 +184,6 @@ Betera
     That truly you look better on me, yeah
 </details>
 
-<br>
-
 \[Post-Chorus\]
 
 <details>
@@ -220,8 +202,6 @@ Betera
     <summary>'Þon sōþlīċe þū lōcast betera on mē, ġēa</summary>
     'Cause truly you look better on me, yeah
 </details>
-
-<br>
 
 \[Outro\]
 <details>
