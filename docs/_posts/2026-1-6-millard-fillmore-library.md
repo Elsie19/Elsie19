@@ -386,9 +386,25 @@ timeline
 
 ### December
 
-#### State of the Union Address
+#### State of the Union Address (December 2nd, 1851)
 
 {% include millard/state-of-the-union-1851.md %}
+
+#### Forwarding Treaty between U.S. and Costa Rica to Senate for Consideration of Ratification (December 12th, 1851)
+
+{% include millard/costa-rica-1851.md %}
+
+#### Free Navigation of the St. Lawrence, St. John, and other Large Rivers for U.S. Citizens (December 12th, 1851)
+
+{% include millard/rivers-1851.md %}
+
+#### Explaining British Warship attacking American Steamship (December 15th, 1851)
+
+{% include millard/prometheus.md %}
+
+#### Transmitting Report from Secretary of State concerning Imprisonment of John S. Thrasher at Havana (December 16th, 1851)
+
+{% include millard/havana-1851.md %}
 
 ## 1852
 
@@ -415,6 +431,12 @@ timeline
 #### "I would rather be right than be President" (July 23rd, 1852)
 
 {% include millard/I-would-rather-be-right-july-23-1852.md %}
+
+### November
+
+#### Letter to the Emperor of Japan ⭐ (November 13th, 1852)
+
+{% include millard/letter-to-japan.md %}
 
 ### December
 
@@ -479,3 +501,4 @@ timeline
 * <https://www.shapell.org/>
 * <https://archive.org/details/wsb17f28_images/wsb17f28/mode/2up>
 * <https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_9/31st_Congress/1st_Session/Chapter_60>
+* <https://archive.org/stream/FillmoreLetterToJapanEmperor/Letter_to_Japan_Emperor_nw.txt>
