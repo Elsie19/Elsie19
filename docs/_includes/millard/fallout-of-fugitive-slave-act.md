@@ -32,7 +32,7 @@ And it further declares that—
 
 And it further declares that—
 
-Any justice of the peace, sheriff, deputy sheriff, coroner, constable, or jailer who shall offend against the provisions of this law by in any way acting, directly or indirectly, under the power conferred by the third section of the act of Congress aforementioned shall forfeit a sum not exceeding $1,000 for every such offense to the use of the county where said offense is committed, or shall be subject to imprisonment not exceeding one year in the county jail.
+> Any justice of the peace, sheriff, deputy sheriff, coroner, constable, or jailer who shall offend against the provisions of this law by in any way acting, directly or indirectly, under the power conferred by the third section of the act of Congress aforementioned shall forfeit a sum not exceeding $1,000 for every such offense to the use of the county where said offense is committed, or shall be subject to imprisonment not exceeding one year in the county jail.
 
 This law, it is obvious, had two objects. The first was to make it a penal offense in all officers and magistrates of the Commonwealth to exercise the powers conferred on them by the act of Congress of the 12th of February, 1793, entitled "An act respecting fugitives from justice and persons escaping from the service of their masters," and which powers they were fully competent to perform up to the time of this inhibition and penal enactment; second, to refuse the use of the jails of the State for the detention of any person claimed as a fugitive slave.
 
