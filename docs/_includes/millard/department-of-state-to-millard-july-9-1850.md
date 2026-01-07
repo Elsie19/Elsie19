@@ -1,4 +1,4 @@
-![MILLARD FILLMORE,]({{ "/assets/img/millard_signature.svg" | relative_url }})
+MILLARD FILLMORE,
 <br>
 *President of the United States.*
 
