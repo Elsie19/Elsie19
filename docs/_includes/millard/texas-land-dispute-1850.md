@@ -20,7 +20,7 @@ Whereas the legislature of the State of Texas, by an act approved the 25th of No
 
 Now, therefore, I, Millard Fillmore, President of the United States of America, do hereby declare and proclaim that the said act of the Congress of the United States of the 9th of September last is in full force and operation.
 
-<img src={{ "/assets/img/presidential_seal.png" | relative_url }} alt="Presidential Seal circa 1850" width="200" height="200">
+<img src="{{ '/assets/img/presidential_seal.png' | relative_url }}" alt="Presidential Seal circa 1850" width="200" height="200">
 
 Given under my hand, at the city of Washington, this 13th day of December, A.D. 1850, and the seventy-fifth of the Independence of these United States.
 
