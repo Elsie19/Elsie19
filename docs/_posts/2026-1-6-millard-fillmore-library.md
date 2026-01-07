@@ -366,6 +366,12 @@ timeline
 
 {% include millard/constantinople.md %}
 
+### April
+
+#### Proclamation against Military Expeditions in Cuba (April 25th, 1851)
+
+{% include millard/cuba-proclamation.md %}
+
 ### May
 
 #### Arrangements to Attend Opening of Railroad Line from the Atlantic to the Great Lakes (May 8th, 1851)
