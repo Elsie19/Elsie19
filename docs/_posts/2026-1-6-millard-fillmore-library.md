@@ -434,7 +434,7 @@ timeline
 
 ### November
 
-#### Letter to the Emperor of Japan ⭐ (November 13th, 1852)
+#### [Letter to the Emperor of Japan](https://en.wikipedia.org/wiki/Perry_Expedition) ⭐ (November 13th, 1852)
 
 {% include millard/letter-to-japan.md %}
 
