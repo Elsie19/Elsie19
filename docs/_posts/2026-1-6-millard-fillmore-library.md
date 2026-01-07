@@ -406,6 +406,10 @@ timeline
 
 {% include millard/havana-1851.md %}
 
+#### Requesting Communication of Dispatch addressed to the Department of State (December 16th, 1851)
+
+{% include millard/dept-state-1851.md %}
+
 ## 1852
 
 ### April
