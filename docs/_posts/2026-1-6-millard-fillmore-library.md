@@ -258,6 +258,10 @@ timeline
 
 {% include millard/texas-borders-1850.md %}
 
+#### Proclamation concerning Texas Land Dispute (December 13th, 1850)
+
+{% include millard/texas-land-dispute-1850.md %}
+
 #### Secretary of War inquiring about the Army being used to exercise Civil Functions in Emergencies (December 17th, 1850)
 
 {% include millard/army-in-emergencies-1850.md %}
@@ -319,6 +323,32 @@ timeline
 #### Answering Senate Questions concerning Prisoner arrested inside Courthouse (February 19th, 1851)
 
 {% include millard/fallout-of-fugitive-slave-act.md %}
+
+#### Convention between US and Mexico concerning Safe Passage across Isthmus of Tehuantepec (February 25th, 1851)
+
+{% include millard/protection-isthmus.md %}
+
+#### Forwarding Complaints by U.S. Citizens against Portugal to Senate (February 26th, 1851)
+
+{% include millard/portugal.md %}
+
+#### Regarding Prisoners captured by Spanish Authorities (February 27th, 1851)
+
+{% include millard/spanish-prisoners.md %}
+
+#### Requesting Information concerning British Authorities and San Salvador (February 28th, 1851)
+
+{% include millard/san-salvador.md %}
+
+### March
+
+#### Trasmitting a Manuscript of the Opinions of the Attorneys-General (March 1st, 1851)
+
+{% include millard/attorneys-general.md %}
+
+#### Calling for Information concerning Forcible Abductions of Citizens in New Mexico Territory (March 3rd, 1851)
+
+{% include millard/abductions.md %}
 
 ### May
 
