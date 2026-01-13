@@ -13,7 +13,7 @@ author: Elsie
 * auto-gen TOC:
 {:toc}
 
-Here is my hopefully accurate accent in IPA.
+Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that \[ɑ\] and \[ɑˤ\] are both written. Yes, those are very much different to me, so I include them.
 
 # Consonants
 
