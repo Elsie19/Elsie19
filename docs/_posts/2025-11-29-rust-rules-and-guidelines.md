@@ -5,16 +5,9 @@ subtitle: A compilation of things that Rust novices should know, without treatin
 tags: [rust]
 comments: true
 mathjax: true
+mermaid: true
 author: Elsie
 ---
-
-<script type="module">
-    Array.from(document.getElementsByClassName("language-mermaid")).forEach(element => {
-      element.classList.add("mermaid");
-    });
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-</script>
 
 # Table of Contents
 
