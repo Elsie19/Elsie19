@@ -169,7 +169,7 @@ timeline
 
 {% include millard/fort-polk-august-2-1850.md %}
 
-#### Compromise of Texas ⭐ (August 6th, 1850)
+#### Compromise of Texas :star: (August 6th, 1850)
 
 {% include millard/compromise-of-1850.md %}
 
@@ -211,7 +211,7 @@ timeline
 
 {% include millard/nomination-september-16-1850.md %}
 
-#### Fugitive Slave Act ⭐ (September 18th, 1850)
+#### Fugitive Slave Act :star: (September 18th, 1850)
 
 {% include millard/fugitive-slave-act.md %}
 
@@ -431,7 +431,7 @@ timeline
 
 ### November
 
-#### [Letter to the Emperor of Japan](https://en.wikipedia.org/wiki/Perry_Expedition) ⭐ (November 13th, 1852)
+#### [Letter to the Emperor of Japan](https://en.wikipedia.org/wiki/Perry_Expedition) :star: (November 13th, 1852)
 
 {% include millard/letter-to-japan.md %}
 
@@ -453,7 +453,7 @@ timeline
 
 ### June
 
-#### 1856 Election Campaign Speeches ⭐ (June, 1856)
+#### 1856 Election Campaign Speeches :star: (June, 1856)
 
 {% include millard/the-ovation-to-fillmore.md %}
 

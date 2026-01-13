@@ -55,10 +55,10 @@ This is \[ɑ\] except when before a pharyngealized consonant (like dark **l**), 
 
 # Mergers
 
-* Mare-mayor ✅
-* Poor-pour ✅
-* Cot-caught ❌
-* Don-dawn ❌
+* Mare-mayor :heavy_check_mark:
+* Poor-pour :heavy_check_mark:
+* Cot-caught :x:
+* Don-dawn :x:
 
 # Innovations
 
