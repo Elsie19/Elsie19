@@ -273,7 +273,11 @@ defaults:
     values:
       layout: "page"
 
-source: docs
+source              : docs
+layouts_dir         : docs/_layouts
+data_dir            : docs/_data
+includes_dir        : docs/_includes
+
 
 # Exclude these files from production site
 exclude:
