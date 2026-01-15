@@ -8,12 +8,22 @@ mathjax: false
 author: Elsie
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+<style>
+.ipa {
+    font-family: "Noto Sans", sans-serif;
+}
+</style>
+
 # Table of Contents
 
 * auto-gen TOC:
 {:toc}
 
-Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that \[ɑ\] and \[ɑˤ\] are both written. Yes, those are very much different to me, so I include them.
+Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that \[<p class="ipa">ɑ</p>\] and \[<p class="ipa">ɑˤ</p>\] are both written. Yes, those are very much different to me, so I include them.
 
 # Consonants
 
