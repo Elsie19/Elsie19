@@ -23,7 +23,7 @@ author: Elsie
 * auto-gen TOC:
 {:toc}
 
-Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that \[{::nomarkdown}<span class="ipa">ɑ</span>{:/}\] and \[{::nomarkdown}<span class="ipa">ɑˤ</span>{:/}\] are both written. Yes, those are very much different to me, so I include them.
+Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that {% include ipa.html symbol="ɑ" %} and {% include ipa.html symbol="ɑˤ" %} are both written. Yes, those are very much different to me, so I include them.
 
 # Consonants
 
@@ -35,7 +35,7 @@ Here is my hopefully accurate accent in IPA. Any distinctions I make are meaning
 
 | Lexical Set | Realization(s) |
 |-------------|:--------------:|
-| TR**A**P    |    \[æ\], \[ẽə̃̆\]   |
+| TR**A**P    |    \[{::nomarkdown}<span class="ipa">æ</span>{:/}\], \[{::nomarkdown}<span class="ipa">ẽə̃̆</span>{:/}\]   |
 | B**A**TH    |    \[æ\], \[ẽə̃̆\]   |
 | P**A**LM    |    \[ɑ\], \[ɑˤ\]   |
 | L**O**T     |       \[ä\]      |
