@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My American Accent
+title: My American Idiolect
 subtitle: A detailed account of my accent
 tags: [ipa, accent, english, american-english]
 comments: true
