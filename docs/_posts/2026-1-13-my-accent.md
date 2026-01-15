@@ -23,7 +23,7 @@ author: Elsie
 * auto-gen TOC:
 {:toc}
 
-Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that <p class="ipa">[ɑ]</p> and <p class="ipa">[ɑˤ]</p> are both written. Yes, those are very much different to me, so I include them.
+Here is my hopefully accurate accent in IPA. Any distinctions I make are meaningful ones, so you will see soon that \[{::nomarkdown}<p class="ipa">ɑ</p>{:/}\] and \[{::nomarkdown}<p class="ipa">ɑˤ</p>{:/}\] are both written. Yes, those are very much different to me, so I include them.
 
 # Consonants
 
