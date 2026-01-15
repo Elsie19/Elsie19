@@ -1,1 +1,1 @@
-<span>[</span><span class="ipa">{{ include.symbol }}</span><span>]</span>
+{% if include.broad == "true" %}<span>/</span>{% else %}<span>[</span>{% endif %}<span class="ipa">{{ include.symbol }}</span>{% if include.broad == "true" %}<span>/</span>{% else %}<span>]</span>{% endif %}

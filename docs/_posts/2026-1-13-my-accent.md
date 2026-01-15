@@ -35,31 +35,31 @@ Here is my hopefully accurate accent in IPA. Any distinctions I make are meaning
 
 | Lexical Set | Realization(s) |
 |-------------|:--------------:|
-| TR**A**P    |    \[{::nomarkdown}<span class="ipa">æ</span>{:/}\], \[{::nomarkdown}<span class="ipa">ẽə̃̆</span>{:/}\]   |
-| B**A**TH    |    \[æ\], \[ẽə̃̆\]   |
-| P**A**LM    |    \[ɑ\], \[ɑˤ\]   |
-| L**O**T     |       \[ä\]      |
-| CL**O**TH   |       \[ä̝\]      |
-| TH**OUGH**T |       \[ɑ\]      |
-| K**I**T     |    \[ɪ\], \[ɪ̈\]    |
-| DR**E**SS   |       \[ɛ\]      |
-| STR**U**T   |       \[ʌ\]      |
-| F**OO**T    |       \[ʊ̞\]      |
-| FL**EE**CE  |       \[i̟\]      |
+| TR**A**P    | {% include ipa.html symbol="æ" %}, {% include ipa.html symbol="ẽə̃̆" %} |
+| B**A**TH    | {% include ipa.html symbol="æ" %}, {% include ipa.html symbol="ẽə̃̆" %} |
+| P**A**LM    | {% include ipa.html symbol="ɑ" %}, {% include ipa.html symbol="ɑˤ" %} |
+| L**O**T     | {% include ipa.html symbol="ä" %} |
+| CL**O**TH   | {% include ipa.html symbol="ä̝" %} |
+| TH**OUGH**T | {% include ipa.html symbol="ɑ" %} |
+| K**I**T     | {% include ipa.html symbol="ɪ" %}, {% include ipa.html symbol="ɪ̈ " %} |
+| DR**E**SS   | {% include ipa.html symbol="ɛ" %} |
+| STR**U**T   | {% include ipa.html symbol="ʌ" %} |
+| F**OO**T    | {% include ipa.html symbol="ʊ̞" %} |
+| FL**EE**CE  | {% include ipa.html symbol="i̟" %} |
 
 #### TR**A**P & B**A**TH Set
 
-This is (I think) fairly standard for American English where /æ/ raising exists, thus:
+This is (I think) fairly standard for American English where {% include ipa.html symbol="æ" broad="true" %} raising exists, thus:
 
-* ⟨at⟩ \[ˈæt\]
-* ⟨ant⟩ \[ẽə̃̆nt̚\]
+* ⟨at⟩ {% include ipa.html symbol="ˈæt" %}
+* ⟨ant⟩ {% include ipa.html symbol="ˈẽə̃̆nt̚" %}
 
 #### P**A**LM Set
 
-This is \[ɑ\] except when before a pharyngealized consonant (like dark **l**), where it is \[ɑˤ\].
+This is {% include ipa.html symbol="ɑ" %} except when before a pharyngealized consonant (like dark **l**), where it is {% include ipa.html symbol="ɑˤ" %}.
 
-* ⟨father⟩ \[ˈfɑðɚ\]
-* ⟨palm⟩ \[ˈpʰɑˤɫm\]
+* ⟨father⟩ {% include ipa.html symbol="ˈfɑðɚ" %}
+* ⟨palm⟩ {% include ipa.html symbol="ˈpʰɑˤɫm" %}
 
 ### Generally Diphthongs
 
