@@ -13,7 +13,7 @@ subtitle: Everything you might need to know
   }
 </style>
 
-Hey, hola, χαίρετε, ᚹᛁᛚᚳᚢᛗᛖ! I'm Elisabeth (Elsie) and this is my blog!
+Hey, hola, χαίρετε, ᚹᛁᛚᚳᚢᛗᛖ! I'm Elisabeth (Elsie) Wenger-Stickel and this is my blog!
 
 You probably know me from either [Pacstall](https://pacstall.dev) or [Rhino Linux](https://rhinolinux.org). I created pacstall and am currently the benevolent dictator for life on it, and for Rhino Linux, I coordinate the integration between RL and Pacstall, along with being the creator and main developer for RPK (Rhino Pkg), the universal package manager wrapper.
 
