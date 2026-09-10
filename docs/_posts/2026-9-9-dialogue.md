@@ -22,6 +22,9 @@ author: Elsie
     color: white;
     text-decoration: line-through;
 }
+.center {
+    text-align: center
+}
 </style>
 
 A dialogue with my inner self:
@@ -134,7 +137,7 @@ I could not take refuge in my family, for they'd make me wait years, <span class
 
 <span class="strikethrough">I am your daughter, God</span>, that boy, that shadow of myself, he's dead, he disappeared:
 <br/>
-<span title="James 4:14">*Yet you do not even know what tomorrow will bring.*
+<span title="James 4:14" class="center">*Yet you do not even know what tomorrow will bring.*
 <br/>
 *What is your life?*
 <br/>
