@@ -142,7 +142,7 @@ I could not take refuge in my family, for they'd make me wait years, <span class
 <br/>
 > And it makes no sense to me <span class="strikethrough">How could you, God?</span>
 
-<audio controls src="{{ 'assets/audio/alien.mp3' | relative_url }}"></audio>
+<audio controls preload="auto" src="{{ 'assets/audio/alien.mp3' | relative_url }}"></audio>
 
 ~ Alien, Kim Petras
 
