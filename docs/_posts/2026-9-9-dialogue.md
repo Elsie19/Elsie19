@@ -26,27 +26,7 @@ author: Elsie
     text-align: center
 }
 
-<!--
-Source - https://stackoverflow.com/a/12216973
-Posted by Mike T
-Retrieved 2026-09-10, License - CC BY-SA 3.0
--->
-
-ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-li:before {
-  content: "✱";
-  padding-right: 5px;
-}
+ul { list-style-type: "✱ "; }
 </style>
 
 A dialogue with my inner self:
