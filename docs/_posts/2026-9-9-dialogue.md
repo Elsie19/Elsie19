@@ -27,6 +27,15 @@ author: Elsie
 }
 
 ul { list-style-type: "✱ "; }
+
+.redacted {
+    cursor: pointer;
+    user-select: none;
+}
+
+.redacted:hover {
+    opacity: 0.7;
+}
 </style>
 
 A dialogue with my inner self:
@@ -146,7 +155,7 @@ I could not take refuge in my family, for they'd make me wait years, <span class
 *For you are a mist that appears for a little while and then vanishes.*
 </span>
 
-That boy named █████ died February 10th, 2026,
+That boy named <p id="text"></p> died February 10th, 2026,
 his life was like a mist to me, he vanished,
 his only purpose was to bring me to life.
 I've written before that I can't hate him, but I really do.
@@ -165,3 +174,24 @@ soy una mujer
 \~\~\~
 <br/>
 Elisabeth Wenger-Stickel
+
+<script>
+const text = "RDCTD";
+
+const element = document.getElementById("text");
+
+for (const character of text) {
+    const block = document.createElement("span");
+
+    block.className = "redacted";
+    block.textContent = "█";
+    block.dataset.char = character;
+
+    block.addEventListener("click", () => {
+        block.textContent = block.dataset.char;
+        block.classList.remove("redacted");
+    });
+
+    element.appendChild(block);
+}
+</script>
