@@ -155,7 +155,7 @@ I could not take refuge in my family, for they'd make me wait years, <span class
 *For you are a mist that appears for a little while and then vanishes.*
 </span>
 
-That boy named <p id="text"></p> died February 10th, 2026,
+That boy named <span class="redacted" data-char="R">█</span><span class="redacted" data-char="D">█</span><span class="redacted" data-char="C">█</span><span class="redacted" data-char="T">█</span><span class="redacted" data-char="D">█</span> died February 10th, 2026,
 his life was like a mist to me, he vanished,
 his only purpose was to bring me to life.
 I've written before that I can't hate him, but I really do.
@@ -176,22 +176,10 @@ soy una mujer
 Elisabeth Wenger-Stickel
 
 <script>
-const text = "RDCTD";
-
-const element = document.getElementById("text");
-
-for (const character of text) {
-    const block = document.createElement("span");
-
-    block.className = "redacted";
-    block.textContent = "█";
-    block.dataset.char = character;
-
+document.querySelectorAll(".redacted").forEach(block => {
     block.addEventListener("click", () => {
         block.textContent = block.dataset.char;
         block.classList.remove("redacted");
     });
-
-    element.appendChild(block);
-}
+});
 </script>
