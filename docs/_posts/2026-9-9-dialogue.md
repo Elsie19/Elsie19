@@ -27,26 +27,6 @@ author: Elsie
 }
 
 ul { list-style-type: "✱ "; }
-
-.scrub {
-    position: relative;
-    display: inline-block;
-    cursor: default;
-}
-
-.scrub-text {
-    visibility: visible;
-}
-
-.scrub-cover {
-    position: absolute;
-    inset: 0;
-    transition: opacity 0.4s ease;
-}
-
-.scrub:hover .scrub-cover {
-    opacity: 0;
-}
 </style>
 
 A dialogue with my inner self:
@@ -166,10 +146,7 @@ I could not take refuge in my family, for they'd make me wait years, <span class
 *For you are a mist that appears for a little while and then vanishes.*
 </span>
 
-That boy named <span class="scrub">
-    <span class="scrub-text">RDCTD</span>
-    <span class="scrub-cover">█████</span>
-</span> died February 10th, 2026,
+That boy named █████ died February 10th, 2026,
 his life was like a mist to me, he vanished,
 his only purpose was to bring me to life.
 I've written before that I can't hate him, but I really do.
