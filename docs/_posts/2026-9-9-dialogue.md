@@ -36,13 +36,22 @@ ul { list-style-type: "✱ "; }
 .redacted:hover {
     opacity: 0.7;
 }
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 </style>
 
 A dialogue with my inner self:
 
 Dysphoria is **permanent suffering**, an all encompasing **dread**,
 <br/>
-&emsp;as **deadly** as nightshade, as **dark** as your most chasmic thoughts. <span class="strikethrough">why am I suffering</span>
+&emsp;as **deadly** as nightshade, as **dark** as your most chasmic thoughts. <span class="strikethrough unselectable">why am I suffering</span>
 <br/>
 The **scraping of nails** on a chalkboard that is your brain,
 <br/>
@@ -52,11 +61,11 @@ The **scraping of nails** on a chalkboard that is your brain,
 <br/>
 &emsp;Your **skin feels like wet clothes**.
 <br/>
-You see **no future**; **you are nothing**; the urge to jump, as the wind strips the **pain**. <span class="strikethrough">what if I just ended it</span>
+You see **no future**; **you are nothing**; the urge to jump, as the wind strips the **pain**. <span class="strikethrough unselectable">what if I just ended it</span>
 <br/>
-The **hatred of your skin**; the urge to excoriate your flesh. <span class="strikethrough">gonna smash my head into a wall</span>
+The **hatred of your skin**; the urge to excoriate your flesh. <span class="strikethrough unselectable">gonna smash my head into a wall</span>
 <br/>
-The **flashes of rage** when **something is not right**, **my body betrays me**, <span class="strikethrough">I'm a physical abomination</span>:
+The **flashes of rage** when **something is not right**, **my body betrays me**, <span class="strikethrough unselectable">I'm a physical abomination</span>:
 <br/>
 &emsp;what I see **is not me**.
 
@@ -64,7 +73,7 @@ Why can't I **return my body** to my Maker, there must be some **mistake**.
 <br/>
 <q>I'd like a refund please, the product is **defective**</q> (my **body is not mine**, it is impersonal, a tool, a product)
 <br/>
-<q>*Your body is working fine*</q> <span class="strikethrough">how could you make me so hideous</span>
+<q>*Your body is working fine*</q> <span class="strikethrough unselectable">how could you make me so hideous</span>
 <br/>
 <q><span title="Psalm 139:14">I praise you, for I am **fear**fully and wonderfully made. Wonderful are your works; that I know very well</span></q>, I think, but I do not dare utter, so I say:
 <br/>
@@ -85,10 +94,10 @@ Dysphoria is:
 * Crying for the **friends you couldn't have**, watching them from afar, knowing you can't truly be one of them.
 * The **one-way mirror** of your femininity, you can see through but **they cannot see you**.
 * _The women you make friends with treat you differently, you'll never be one of them, you fucking <u>trap</u>, you'll always be known as that **freak**, you dirty fucking monster, you'll **never be a real woman**._
-* The clothes you can't wear; "**pervert**!", <span class="strikethrough">"I'm a faggot</span>, "**tranny**!"
+* The clothes you can't wear; "**pervert**!", <span class="strikethrough unselectable">"I'm a faggot</span>, "**tranny**!"
 * The **dull** heartache.
 * The peace you will never have: an **everlasting war with yourself**.
-* Like **calmly drowning** while **seeing yourself transform into a stranger**, "I know this is my body, but **it can't be**". <span class="strikethrough">what the fuck is wrong with me</span>
+* Like **calmly drowning** while **seeing yourself transform into a stranger**, "I know this is my body, but **it can't be**". <span class="strikethrough unselectable">what the fuck is wrong with me</span>
 
 Testosterone has murdered me.
 <br/>
@@ -118,35 +127,35 @@ I might as well have been **burning in Hell itself**, drowning in emotions with 
 <br/>
 I could not take refuge in my body, for it betrayed me with testosterone,
 <br/>
-I could not take refuge in my mind, for it laughed at me like a hyena, <span class="strikethrough">my mind is devouring itself</span>
+I could not take refuge in my mind, for it laughed at me like a hyena, <span class="strikethrough unselectable">my mind is devouring itself</span>
 <br/>
 I could not take refuge in my friends, for they knew not what I felt,
 <br/>
-I could not take refuge in my family, for they'd make me wait years, <span class="strikethrough">what the actual fuck happened to how I looked</span>
+I could not take refuge in my family, for they'd make me wait years, <span class="strikethrough unselectable">what the actual fuck happened to how I looked</span>
 
-> And I'm from **oblivion** <span class="strikethrough">I hate myself</span>
+> And I'm from **oblivion** <span class="strikethrough unselectable">I hate myself</span>
 <br/>
-> Call me an alien <span class="strikethrough">I was just born incomplete like a fucking IKEA chair</span>
+> Call me an alien <span class="strikethrough unselectable">I was just born incomplete like a fucking IKEA chair</span>
 <br/>
-> And make what I say sound so insecure <span class="strikethrough">I feel like a broken mess</span>
+> And make what I say sound so insecure <span class="strikethrough unselectable">I feel like a broken mess</span>
 <br/>
-> Inside, I'm screaming out <span class="strikethrough">JUST MAKE ME COMPLETE FOR ONCE IN MY FUCKING LIFE</span>
+> Inside, I'm screaming out <span class="strikethrough unselectable">JUST MAKE ME COMPLETE FOR ONCE IN MY FUCKING LIFE</span>
 <br/>
-> You put me in a box <span class="strikethrough">it doesn't represent me, it represents men</span>
+> You put me in a box <span class="strikethrough unselectable">it doesn't represent me, it represents men</span>
 <br/>
-> But still I can't stop to reach out for more <span class="strikethrough">It's killing me inside with all this hurt</span>
+> But still I can't stop to reach out for more <span class="strikethrough unselectable">It's killing me inside with all this hurt</span>
 <br/>
-> And I've tried to change what you want me to change <span class="strikethrough">I'm sorry I won't be your boy who grew up into a man, Mama</span>
+> And I've tried to change what you want me to change <span class="strikethrough unselectable">I'm sorry I won't be your boy who grew up into a man, Mama</span>
 <br/>
-> But I can't do it I just can't win. <span class="strikethrough">I've tried for 3 years</span>
+> But I can't do it I just can't win. <span class="strikethrough unselectable">I've tried for 3 years</span>
 <br/>
-> And it makes no sense to me <span class="strikethrough">How could you, God?</span>
+> And it makes no sense to me <span class="strikethrough unselectable">How could you, God?</span>
 
 <audio controls preload="auto" src="{{ 'assets/audio/alien.mp3' | relative_url }}"></audio>
 
 ~ Alien, Kim Petras
 
-<span class="strikethrough">I am your daughter, God</span>, that boy, that shadow of myself, he's dead, he disappeared:
+<span class="strikethrough unselectable">I am your daughter, God</span>, that boy, that shadow of myself, he's dead, he disappeared:
 <br/>
 <span title="James 4:14" class="center">*Yet you do not even know what tomorrow will bring.*
 <br/>
