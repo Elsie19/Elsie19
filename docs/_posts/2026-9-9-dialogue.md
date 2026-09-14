@@ -44,6 +44,7 @@ ul { list-style-type: "✱ "; }
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    cursor: text;
 }
 </style>
 
