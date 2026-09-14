@@ -10,7 +10,7 @@ author: Elsie
 ---
 
 {: .box-warning}
-**Warning:** Trigger warning for Gender Dysphoria & Suicide.
+**Warning:** Trigger warning for [Gender Dysphoria](https://en.wikipedia.org/wiki/Gender_dysphoria) & Suicide.
 
 <head>
     <meta name="darkreader-lock">
