@@ -66,7 +66,7 @@ Why can't I **return my body** to my Maker, there must be some **mistake**.
 <br/>
 "*Your body is working fine*" <span class="strikethrough">how could you make me so hideous</span>
 <br/>
-"I praise you, for I am **fear**fully and wonderfully made. Wonderful are your works; that I know very well", I think, but I do not dare utter, so I say:
+<q><span title="Psalm 139:14">I praise you, for I am **fear**fully and wonderfully made. Wonderful are your works; that I know very well</span></q>, I think, but I do not dare utter, so I say:
 <br/>
 "You must be **confused**, that's why it is defective: the product works as intended!"
 <br/>
