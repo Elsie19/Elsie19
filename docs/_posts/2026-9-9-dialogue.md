@@ -62,13 +62,13 @@ The **flashes of rage** when **something is not right**, **my body betrays me**,
 
 Why can't I **return my body** to my Maker, there must be some **mistake**.
 <br/>
-"I'd like a refund please, the product is **defective**" (my **body is not mine**, it is impersonal, a tool, a product)
+<q>I'd like a refund please, the product is **defective**</q> (my **body is not mine**, it is impersonal, a tool, a product)
 <br/>
-"*Your body is working fine*" <span class="strikethrough">how could you make me so hideous</span>
+<q>*Your body is working fine*</q> <span class="strikethrough">how could you make me so hideous</span>
 <br/>
 <q><span title="Psalm 139:14">I praise you, for I am **fear**fully and wonderfully made. Wonderful are your works; that I know very well</span></q>, I think, but I do not dare utter, so I say:
 <br/>
-"You must be **confused**, that's why it is defective: the product works as intended!"
+<q>You must be **confused**, that's why it is defective: the product works as intended!</q>
 <br/>
 It <u>feels like</u> a **cosmic betrayal**.
 <br/>
