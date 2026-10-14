@@ -21,13 +21,21 @@ author: Elsie
     background: black;
     color: white;
     text-decoration: line-through;
+
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
     cursor: text;
+    filter: blur(0);
+    transition: filter 150ms ease-in;
+}
+
+.strike:hover {
+    filter: blur(3px);
 }
 
 .center {
@@ -184,11 +192,11 @@ Never be scared again.
 
 But,
 <br/>
-I am a woman
+<span title="Luke 15:32">
+this <span class="strike">son</span> daughter of mine was dead and has come to life;
 <br/>
-\~\~\~
-<br/>
-Elisabeth Wenger-Stickel
+<span class="strike">he</span> she was lost and has been found.
+</span>
 
 <script>
 document.querySelectorAll(".redacted").forEach(block => {
